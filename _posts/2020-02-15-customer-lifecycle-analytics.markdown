@@ -22,4 +22,4 @@ To close I will reemphasize the importance of collecting good data, analytics an
 
 Comments welcome!
 
-{% include disqus.html %}
+{% include disqus_comments.html %}

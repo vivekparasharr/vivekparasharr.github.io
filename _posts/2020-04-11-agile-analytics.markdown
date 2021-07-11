@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "[Strategy] Agile Analytics"
+title: "Agile Analytics"
 categories: project, product, management, agile, analytics, scrum, waterfall, sprint
 permalink: /strategy/agile-analytics
 ---
-#### Agile Analytics
-##### Scrum methodology to implement Agile philosophy for Analytics teams. 
+#### Scrum methodology to implement Agile philosophy for Analytics teams. 
 
 ![optimizing-retention](/images/strategy/waterfall-to-agile-revised.jpg){:class="img-responsive"}
 
@@ -50,4 +49,4 @@ Hope this article helps you apply agile philosophy on your projects!
 
 Comments welcome!
 
-{% include disqus.html %}
+{% include disqus_comments.html %}

@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "[Strategy] Optimizing Retention through Machine Learning"
-date:   2020-03-14 16:00:00 -0300
-categories: strategy, optimizing retention, reducing churn, machine learning, ml
+title: "Optimizing Retention through Machine Learning"
+categories: strategy, optimizing, optimizing retention, reducing churn, churn, machine learning, ml
 permalink: /strategy/optimizing_retention_through_machine_learning
 ---
 #### Optimizing Retention through Machine Learning
@@ -10,7 +9,7 @@ Co-author: [Richard Vogg](https://github.com/richardvogg)
 
 Acquiring a new customer in the financial services sector can be as much as five to 25 times more expensive than retaining an existing one. Therefore, prevention of costumer churn is of paramount importance for the business.  Advances in the area of Machine Learning, availability of large amount of customer data, and more sophisticated methods for predicting churn can help devise data backed strategy to prevent customers from churning.
 
-![optimizing-retention](/images/2020-12-19/optimizing-retention.png){:class="img-responsive"}
+![optimizing-retention](/images/strategy/optimizing-retention.png){:class="img-responsive"}
 
 Imagine that you are a large bank facing a challenge in this area. You are witnessing an increasing amount of customers churn, which has starting hitting your profit margin. You establish a team of analysts to review your current customer development and retention program. The analysts quickly uncover that the current program is a patchwork of mostly reactive strategies applied in various silos within the bank. However, the upside is that the bank has already collected rich data on customer interactions that could possibly help get a deeper understanding of reasons for churn. 
 

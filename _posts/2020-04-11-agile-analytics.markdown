@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Strategy] Agile Analytics"
-date:   2020-04-11 16:00:00 -0300
-categories: strategy, agile, analytics, scrum, waterfall, sprint
+title: "[Strategy] Agile Analytics"
+categories: project, product, management, agile, analytics, scrum, waterfall, sprint
+permalink: /strategy/agile-analytics
 ---
 #### Agile Analytics
 ##### Scrum methodology to implement Agile philosophy for Analytics teams. 
 
-![optimizing-retention](/images/2020-12-19/optimizing-retention.png){:class="img-responsive"}
+![optimizing-retention](/images/strategy/waterfall-to-agile-revised.jpg){:class="img-responsive"}
 
 ##### Waterfall Methodology
 Traditionally analytics teams have followed a waterfall methodology to project management. This involves dividing the project into sequential steps involving *requirement gathering, development, testing, delivery, and maintenance*. The benefits of this approach are that budgeting is easy, however on the flip side there is less to no contact with the customer after the requirement gathering stage up until delivery. 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Strategy] Customer Lifecycle Analytics"
-categories: strategy, customer lifecycle analytics
+title: "Customer Lifecycle Analytics"
+categories: strategy, customer lifecycle, lifecycle, analytics, customer lifecycle analytics
 permalink: /strategy/customer_lifecycle_analytics
 ---
 #### How important is it to align your analytics efforts with the customer lifecycle.
@@ -10,7 +10,7 @@ Imagine you are a credit card department within the consumer banking branch of l
 
 The answer lies in a simple concept, but one that is often overlook by analytics teams. Are you trying to identify which life stage the customer is in? Are you trying to synchronize your sales effort with the customer lifecycle? What is customer lifecycle you ask?
 
-![customer-lifecycle](/images/2020-12-19/customer-lifecycle.png){:class="img-responsive"}
+![customer-lifecycle](/images/strategy/customer-lifecycle.png){:class="img-responsive"}
 
 Customer lifecycle can be understood as a framework to track the relationship between a customer and a bank. It starts off with the Acquisition stage where your primary focus is to figure out ways to identify and bring on-board customers with which a mutually beneficial relationship can be created. After this comes the Development stage, where the customer is encouraged to expand his portfolio with your products through cross-sell efforts, etc. Finally, comes the Retention stage where the customer has been with you for more than a decade, so you try to enhance the relationship and monitor customer satisfaction so that the customer can act as a good ambassador for you. 
 

@@ -6,6 +6,9 @@
   * Docs: remove Google+ (#373)
   * Update README section on adding favicons to site (#438)
 
+![customer-lifecycle](/images/strategy/customer-lifecycle.png){:class="img-responsive"}
+
+
 ### Minor Enhancements
 
   * Add Keybase to social links (#400)

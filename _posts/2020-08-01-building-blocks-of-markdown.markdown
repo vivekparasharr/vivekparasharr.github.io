@@ -125,17 +125,6 @@ lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
 lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
 
 
-### Jekyll metadata options
-
-layout: post
-title: "This post demonstrates post content styles"
-categories: junk
-author:
-- Bart Simpson
-- Nelson Mandela Muntz
-meta: "Springfield"
-
-
 For a more complete list consider visiting [Codebase](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown).
 
 By the way this page was written using markdown and rendered to HTML using Jekyll. 

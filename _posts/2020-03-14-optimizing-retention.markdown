@@ -2,6 +2,10 @@
 layout: post
 title: "Optimizing Retention through Machine Learning"
 categories: strategy, optimizing, optimizing retention, reducing churn, churn, machine learning, ml
+meta: "strategy"
+author:
+- Vivek Parashar
+- Richard Vogg
 permalink: /strategy/optimizing_retention_through_machine_learning
 ---
 #### Co-author: [Richard Vogg](https://github.com/richardvogg)

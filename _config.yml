@@ -3,9 +3,9 @@ author:
   name: Vivek Parashar
   email: vivekparasharr@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+   An attempt at learning/teaching Statistical Analysis, Machine Learning, 
+   Deep Learning, and Artificial Intelligence for Data Science in various 
+   languages. 
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -51,6 +51,9 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
+
+# Google Analytics
+google_analytics: UA-201283830-1
 
 # Build settings
 theme: minima

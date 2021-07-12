@@ -9,23 +9,36 @@ Following are some of the maps that I created as part of the 30DayMapChallenge!
 #### #30DayMapChallenge - Day 1 - Points. 
 India has ~40 cities with more than a million people, ~400 cities with between 100,000 and 1 million people, and ~2500 cities with between 10,000 and 100,000 people.
 Created with Python/matplotlib.
-![tips-dataset](/images/maps/01112020.png){:class="img-responsive"} 
+![map01](/images/maps/01112020.png){:class="img-responsive"} 
 
 #### #30DayMapChallenge - Day 2 - Lines
 Seven major rivers and their numerous tributaries make up the river system in India. Ganga is the largest river in India. Over 5,000 Himalayan glaciers feed these rivers.
 Created #python + #matplotlib
-![tips-dataset](/images/maps/02112020.png){:class="img-responsive"}
+![map02](/images/maps/02112020.png){:class="img-responsive"}
 
 #### #30DayMapChallenge - Day 3 - Polygons
 Great Lakes are a chain of deep freshwater lakes in North America. They rank among the 14 largest lakes in the world. The #GreatLakesInitiative strives to protect aquatic life, wildlife, and human health.
 Created with #Python + #MatPlotLib
-![tips-dataset](/images/maps/03112020.png){:class="img-responsive"} 
+![map03](/images/maps/03112020.png){:class="img-responsive"} 
 
-![tips-dataset](/images/maps/04112020.png){:class="img-responsive"}
+#### #30DayMapChallenge - Day 4 - Hexagons
+Recycled my map from day 1. Used H3 library to layer in a hexagon grid and convert point lat/lng to H3 grid id for the point at level 3 (grid size of approximately 100km). 
+Created using #Python + #MatPlotLib + #UberH3
+![map04](/images/maps/04112020.png){:class="img-responsive"}
 
-![tips-dataset](/images/maps/05112020.png){:class="img-responsive"} 
+#### #30DayMapChallenge - Day 5 - Something Blue
+About 71% of the Earth's surface is covered with water, 
+- oceans: 96.5%
+- fresh water: 3%
+- drinkable water: 0.5%
+That’s why it’s so important to #conservewater. 
+Created using #Python + #MatPlotLib
+![map05](/images/maps/05112020.png){:class="img-responsive"} 
 
-![tips-dataset](/images/maps/06112020.png){:class="img-responsive"}
+#### #30DayMapChallenge - Day 6 - Red
+World’s 75% active volcanoes are around the ring of fire, a horseshoe-shaped zone that stretches from the southern tip of S.America across the W.Coast of N.America, through the Bering Sea to Japan, and on to NZ.
+Created using #Python+#MatPlotLib
+![map06](/images/maps/06112020.png){:class="img-responsive"}
 
 ![tips-dataset](/images/maps/07112020.png){:class="img-responsive"} 
 

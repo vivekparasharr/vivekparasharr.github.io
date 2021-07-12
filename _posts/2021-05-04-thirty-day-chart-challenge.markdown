@@ -72,6 +72,46 @@ circular_hist(ax[1], angles1, offset=np.pi/2, density=False)
 ```
 ![chart11](/images/charts/2021-04-11.png){:class="img-responsive"} 
 
+Day 16 was about trees, so decided to use the Kaggle dataset on mushrooms and ran a decision tree model with default values for the parameters to classify a mushroom as poisonous or not, and built a  tree map. 
+```python
+# Fit the classifier with default hyper-parameters
+clf = DecisionTreeClassifier(random_state=1234)
+model = clf.fit(X, y)
+
+# Print Text Representation
+text_representation = tree.export_text(clf)
+print(text_representation)
+
+# Plot Tree with plot_tree
+fig = plt.figure(figsize=(25,20), facecolor='white')
+_ = tree.plot_tree(clf, 
+                   feature_names=feature_names1,  
+                   class_names=df['class'].unique(),
+                   filled=True)
+fig.savefig("decistion_tree.png")
+```
+![chart16](/images/charts/2021-04-16.png){:class="img-responsive"} 
+
+Day 24 was limiting in the way that you could only plot a monochrome chart. Found the interesting dataset on US post offices which showed how many post offices were established and disconnected by year. Plotted the established count on +y and discontinued on the -y axis. 
+```python
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+fig = make_subplots(rows=2, cols=1,
+    shared_xaxes=True, vertical_spacing=0.02,)
+    #subplot_titles=("Plot 1", "Plot 2"))
+fig.add_trace(
+    go.Bar(x=list(e.established), y=list(e.state), name='Established', marker_color=chosen_color),
+        #text=list(m['hex']),textposition='auto'),
+    row=1, col=1
+)
+fig.add_trace(
+    go.Bar(x=list(d.discontinued), y=list(d.state2), name='Discontinued', marker_color=chosen_color),
+        #text=list(m['hex']),textposition='auto'),
+    row=2, col=1
+)
+```
+![chart24](/images/charts/2021-04-24.png){:class="img-responsive"} 
+
 ### The challenge
 The biggest challenge was certainly in finding the right data for the kind of chart to be plotted on a particular day. Following are some of the websites that I used for getting the data [data.world](https://data.world/), [kaggle](https://www.kaggle.com/datasets), [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021), [MakeoverMonday](https://www.makeovermonday.co.uk/data/), 
 [Eurostats](https://ec.europa.eu/eurostat), [UN Stats](https://unstats.un.org/home/), [WHO](https://www.who.int/data/collections), and [OECD Stats](https://stats.oecd.org/). 

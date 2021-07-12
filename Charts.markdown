@@ -1,4 +1,8 @@
-## Charts
+---
+layout: page
+title: Charts
+permalink: /charts/
+---
 
 Following are some of the charts that I created
 

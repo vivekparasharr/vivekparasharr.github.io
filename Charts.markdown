@@ -1,4 +1,4 @@
-## Chats
+## Charts
 
 Following are some of the charts that I created
 

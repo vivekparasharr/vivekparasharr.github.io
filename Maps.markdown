@@ -1,8 +1,4 @@
----
-layout: page
-title: Maps
-permalink: /maps/
----
+## Maps
 
 Following are some of the maps that I created as part of the 30DayMapChallenge!
 
@@ -27,11 +23,7 @@ Created using #Python + #MatPlotLib + #UberH3
 ![map04](/images/maps/04112020.png){:class="img-responsive"}
 
 #### #30DayMapChallenge - Day 5 - Something Blue
-About 71% of the Earth's surface is covered with water, 
-- oceans: 96.5%
-- fresh water: 3%
-- drinkable water: 0.5%
-That’s why it’s so important to #conservewater. 
+About 71% of the Earth's surface is covered with water (oceans: 96.5%, fresh water: 3%, drinkable water: 0.5%). That’s why it’s so important to #conservewater. 
 Created using #Python + #MatPlotLib
 ![map05](/images/maps/05112020.png){:class="img-responsive"} 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visualize data using SAS!"
+title: "Visualize data using SAS"
 categories: data, visualization, visualize, sas
 ---
 This is the third of a series of articles that I will write to give a gentle introduction to statistics. In this article we will cover how we can visualize data using various charts and how to read them. I will show how to create these charts using SAS and will include code snippets as well. For a full version of the code visit my [GitHub repository](https://github.com/vivekparasharr/Learn-Programming). 

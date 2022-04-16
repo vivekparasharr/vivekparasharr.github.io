@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Statistical Distributions!"
+title: "Statistical Distributions"
 categories: statistics, describe, data, mean, variance, standard deviation, normal, skewness, kurtosis
 ---
 ### Statistical Distributions!

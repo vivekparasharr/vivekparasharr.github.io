@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Describe your data using Python!"
+title: "Describe your data using Python"
 categories: statistics, describe, data, mean, variance, standard deviation, normal, skewness, kurtosis
 ---
 ![world-of-statistics](/images/mathematics/statistics00.png){:class="img-responsive"}

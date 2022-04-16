@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agile Analytics"
+title: "An Agile Approach to Analytics"
 categories: project, product, management, agile, analytics, scrum, waterfall, sprint
 permalink: /strategy/agile-analytics
 ---

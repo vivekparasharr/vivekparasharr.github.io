@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Introduction to GitHub"
-categories: introduction github
+categories: github
 ---
 A three part article series on version control using Git and GitHub. 
 

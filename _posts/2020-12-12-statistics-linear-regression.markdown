@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Linear Regression! - WIP"
-categories: statistics, describe, data, mean, variance, standard deviation, normal, skewness, kurtosis
+title: "Linear Regression!"
+categories: statistics, linear regression, linear, regression, ordinary least squares, ols
 ---
 Regression is a supervised learning technique to predict the value of a continuous target or dependent variable using a combination of predictor or independent variables. Linear regression is a type of regression where the primary consideration is that the independent and dependent variables have a linear relationship. Linear regression is of two broad types - simple linear regression and multiple linear regression. In simple linear regression there is only one independent variable. Whereas, multiple linear regression refers to a statistical technique that uses two or more independent variables to predict the outcome of a dependent variable. Linear regression also has some modifications such as lasso, ridge or elastic-net regression. However, in this article we will cover multiple linear regression. 
 

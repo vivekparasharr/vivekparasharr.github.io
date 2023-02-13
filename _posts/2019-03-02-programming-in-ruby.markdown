@@ -118,8 +118,7 @@ b. Accessing array elements:
 myOtherArray[3] = 4
 ```
 
-#### Ruby has another advanced data type called Hash, which is similar to a python dictionary
-Just like arrays, hashes allow you to store multiple values together. However, while arrays store values with a numerical index, hashes store information using key-value pairs. Each piece of information in the hash has a unique label, and you can use that label to access the value.
+Ruby has another advanced data type called Hash, which is similar to a python dictionary. Just like arrays, hashes allow you to store multiple values together. However, while arrays store values with a numerical index, hashes store information using key-value pairs. Each piece of information in the hash has a unique label, and you can use that label to access the value.
 a. To create a hash, use Hash.new, or myHash={}. For example:
 ```ruby
 myHash=Hash.new()

@@ -1,9 +1,19 @@
 ---
 layout: post
-title: "Building Blocks of Julia"
-categories: building blocks, julia, learn programming
+title: "Programming in Julia"
+categories: programming, julia 
 ---
-#### Power like Python, speed like C
+Julia is a high-level, high-performance programming language that was created in 2012 by a team of computer scientists led by Jeff Bezanson, Stefan Karpinski, and Viral Shah. Julia was designed to address the limitations of traditional scientific computing languages, such as MATLAB, Python, and R, while still retaining their ease of use and flexibility.
+
+One of the key features of Julia is its performance. Julia is designed to be fast, with execution speeds comparable to those of compiled languages such as C and Fortran. This is achieved through a combination of just-in-time (JIT) compilation, which compiles code on the fly as it is executed, and type inference, which allows Julia to determine the data types of variables at runtime.
+
+Another important feature of Julia is its support for multiple dispatch. Multiple dispatch allows Julia to select the appropriate method to use based on the types of the arguments being passed to a function. This makes Julia a flexible and expressive language that can be easily extended and customized to fit a wide range of programming tasks.
+
+Julia also includes a number of built-in data structures and libraries that make it easy to work with arrays, matrices, and other scientific computing tools. These include tools for linear algebra, statistics, optimization, and machine learning, as well as support for distributed computing and parallelism.
+
+In addition to its scientific computing features, Julia also includes support for general-purpose programming tasks, such as web development, database access, and file I/O. Julia's growing package ecosystem provides a wide range of libraries and tools for these tasks, making it a versatile language that can be used for a variety of programming tasks.
+
+One of the key benefits of Julia is its community. Julia has a rapidly growing community of developers and users who are actively contributing to the language and its ecosystem. This community has created a large number of high-quality packages, as well as a number of online resources and forums for learning and discussing the language.
 
 Most modern programming languages have a set up similar building blocks, for example 
 1. Receiving input from the user and Showing output to the user
@@ -19,6 +29,7 @@ Most modern programming languages have a set up similar building blocks, for exa
 
 Lets dive right in and see how we can do these things in Julia. 
 
+#### 0. How to install Julia on your desktop?
 Before we can begin to write a program in Julia, we need to install [Julia](https://julialang.org/downloads/). Next you can install [VSCode](https://code.visualstudio.com/Download). Now launch VSCode and install the Julia (by julialang) extension. Now you can create a new test.jl file and add the following code and see if runs.  
 
 ```julia
@@ -114,8 +125,7 @@ b" " indicates a byte literal
 raw" " indicates a raw string that doesn't do interpolation
 ```
 
-##### Key idea here is to learn how to manipulate string variables
-There are a few common operations that we will focus on:
+Key idea here is to learn how to manipulate string variables. There are a few common operations that we will focus on:
 a. Concatenate strings
 ```julia
 # Concatenate strings
@@ -488,6 +498,8 @@ We can tell Julia that a line of code is a comment by starting it with a #.
 ```julia
 # this is a comment
 ```
+
+Overall, Julia is a powerful and flexible programming language that is well-suited for scientific computing and other high-performance tasks. With its emphasis on performance, multiple dispatch, and a growing ecosystem of packages and tools, Julia is a valuable tool for researchers, data scientists, and other professionals who need a fast, flexible, and expressive language for their work.
 
 To close I will emphasize the importance of practicing in learning anything new. Persistence and trying out different combinations of these building blocks for solving easier problems first and more complex ones later on is the only way to become fluent.
 

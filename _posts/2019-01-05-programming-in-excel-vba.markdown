@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building Blocks of Microsoft Excel VBA"
+title: "Programming in Microsoft Excel VBA"
 categories: programming, microsoft, excel, vba
 ---
 Excel VBA, or Visual Basic for Applications, is a programming language that can be used to automate tasks and enhance functionality in Microsoft Excel. VBA is a powerful tool that allows users to write custom macros and functions to automate repetitive tasks, perform complex calculations, and create custom solutions.

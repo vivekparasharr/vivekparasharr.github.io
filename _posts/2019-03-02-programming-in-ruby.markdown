@@ -1,9 +1,17 @@
 ---
 layout: post
-title: "Building Blocks of Ruby"
-categories: building blocks, ruby, learn programming
+title: "Programming in Ruby"
+categories: programming, ruby 
 ---
-#### Ruby is most used for building web applications. However, it is a general-purpose language similar to Python, so it has many other applications like data analysis, prototyping, and proof of concepts.
+Ruby is a high-level, interpreted programming language that was created in the mid-1990s by Yukihiro "Matz" Matsumoto. It is a general-purpose language that is designed to be easy to use and read, with syntax that is similar to natural language. Ruby is often used for web development, as well as for building command-line utilities, desktop applications, and other types of software.
+
+One of the key features of Ruby is its emphasis on programmer productivity and ease of use. Ruby's syntax is designed to be intuitive and easy to read, making it accessible to both beginner and experienced programmers. Ruby also includes a number of built-in features and libraries that make it easy to accomplish common programming tasks, such as working with strings, arrays, and hashes.
+
+Another important feature of Ruby is its object-oriented programming model. Everything in Ruby is an object, and methods can be defined on objects to add functionality. Ruby also includes support for inheritance, encapsulation, and polymorphism, which makes it a powerful tool for building complex software systems.
+
+Ruby is also known for its extensive library of open-source gems, which are pre-built packages of code that can be easily integrated into Ruby projects. These gems provide a wide range of functionality, from database access to web development frameworks, and can save developers a significant amount of time and effort in building software.
+
+One of the most popular web development frameworks built in Ruby is Ruby on Rails. Rails is a full-stack web framework that provides a set of conventions and tools for building web applications quickly and easily. With its focus on developer productivity, Rails has become a popular choice for startups and small businesses, as well as for larger enterprises.
 
 Most modern programming languages have a set up similar building blocks, for example 
 1. Receiving input from the user and Showing output to the user
@@ -19,6 +27,7 @@ Most modern programming languages have a set up similar building blocks, for exa
 
 Lets dive right in and see how we can do these things in Ruby. 
 
+#### 0. How to install Ruby on your desktop?
 Before we can begin writing programs in Ruby, we need to set up our ruby environment. 
 1. You can install Ruby from here [ruby-lang.org](https://www.ruby-lang.org/en/downloads/). 
 2. Additionally, you need to install an IDE to write and execute Ruby code. My personal favorite is [code.visualstudio.com](https://code.visualstudio.com/Download). 
@@ -66,8 +75,7 @@ aNumber = 42
 puts "string: #{aString} \nboolean: #{aBoolean} \nnumber: #{aNumber}"
 ```
 
-#### Performing basic math on numeric variables
-There are 6 types of basic operations: addition, subtraction, multiplication, division, modulo and exponent. 
+Performing basic math on numeric variables. There are 6 types of basic operations: addition, subtraction, multiplication, division, modulo and exponent. 
 ```ruby
 a = 5
 b = 2
@@ -395,6 +403,8 @@ There are three main types of variable:
 3. Numbers (numeric values)
 =end
 ```
+
+Overall, Ruby is a powerful and flexible programming language that is well-suited for a wide range of programming tasks. With its focus on ease of use, object-oriented design, and extensive library of gems, Ruby is a valuable tool for both beginner and experienced programmers. Whether building web applications, desktop utilities, or other types of software, Ruby provides a fast, flexible, and enjoyable development experience.
 
 To close I will emphasize the importance of practicing in learning anything new. Persistence and trying out different combinations of these building blocks for solving easier problems first and more complex ones later on is the only way to become fluent.
 

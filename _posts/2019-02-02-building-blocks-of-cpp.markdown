@@ -1,11 +1,17 @@
 ---
 layout: post
 title: "Building Blocks of C++"
-categories: building blocks, c++, cpp, learn programming
+categories: programming, c, c++, cpp
 ---
-#### C++ is between 10 and 100 times faster than Python when doing any serious number crunching.
+C++ is a powerful and popular programming language that was developed in the 1980s as an extension of the C programming language. It is a high-level, object-oriented language that is used to develop a wide range of applications, including operating systems, device drivers, game engines, and more. C++ is also widely used in the field of finance and quantitative analysis, due to its speed and efficiency.
 
-Most modern programming languages have a set up similar building blocks, for example 
+One of the key features of C++ is its ability to directly manipulate memory, allowing for low-level control over the hardware. C++ is also known for its efficiency and speed, making it a popular choice for developing applications that require high performance, such as video games and real-time systems.
+
+Another key feature of C++ is its support for object-oriented programming (OOP). This allows programmers to define their own classes and objects, and to encapsulate data and functionality within those objects. OOP allows for code reusability, modularity, and flexibility, making it a popular paradigm in software development.
+
+C++ is also known for its support for templates and generic programming. Templates allow programmers to write generic code that can work with different data types, without having to write separate code for each type. This can greatly simplify code development and maintenance, and can make C++ code more efficient and easier to read.
+
+#### Most modern programming languages have a set up similar building blocks, for example 
 1. Receiving input from the user and Showing output to the user
 2. Ability to store values in variables (usually of different kinds such as integers, floating points or character)
 3. A string of characters where you can store names, addresses, or any other kind of text
@@ -19,6 +25,7 @@ Most modern programming languages have a set up similar building blocks, for exa
 
 Lets dive right in and see how we can do these things in C++. 
 
+#### 0. How to install C++ on your desktop?
 Before we can begin to write a program in C++, we need to install [Dev-C++](https://www.bloodshed.net/). Once done, go ahead and open the IDE and try out the following code to see if everything is in order.  
 
 ```cpp
@@ -375,6 +382,10 @@ comment
 block
 */
 ```
+
+While C++ can be a powerful tool, it can also be complex and difficult to learn, especially for beginners. The language has a steep learning curve, and requires a solid understanding of programming concepts such as pointers, memory management, and OOP. However, with the right resources and dedication, C++ can be a rewarding and powerful tool for software development.
+
+Overall, C++ is a popular and powerful programming language that is used in a wide range of applications, from operating systems to video games. Its efficiency, speed, and support for OOP and generic programming make it a versatile and powerful tool for software developers.
 
 To close I will emphasize the importance of practicing in learning anything new. Persistence and trying out different combinations of these building blocks for solving easier problems first and more complex ones later on is the only way to become fluent.
 

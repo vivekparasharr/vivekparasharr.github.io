@@ -1,11 +1,17 @@
 ---
 layout: post
 title: "Building Blocks of Microsoft Excel VBA"
-categories: building blocks, microsoft excel, vba, learn programming
+categories: programming, microsoft, excel, vba
 ---
-#### Learn how to automate repetitive or complex tasks using the power of Excel VBA.
+Excel VBA, or Visual Basic for Applications, is a programming language that can be used to automate tasks and enhance functionality in Microsoft Excel. VBA is a powerful tool that allows users to write custom macros and functions to automate repetitive tasks, perform complex calculations, and create custom solutions.
 
-Most modern programming languages have a set up similar building blocks, for example 
+VBA is a type of Visual Basic, which is an object-oriented programming language developed by Microsoft. VBA is integrated directly into Excel, making it easy to access and use. VBA code is stored in modules, which can be accessed through the Visual Basic Editor in Excel. In the Editor, users can write, edit, and run VBA code, as well as debug their code to identify and fix any errors.
+
+One of the key advantages of VBA is that it allows users to automate repetitive tasks that would otherwise be time-consuming to perform manually. For example, users can write a VBA macro to format data, generate reports, or update data in bulk. VBA can also be used to perform complex calculations, create custom user interfaces, and interact with other applications.
+
+To get started with VBA, users should have a basic understanding of programming concepts and syntax. The VBA language is based on Visual Basic, so many programming concepts, such as variables, loops, and conditional statements, are similar to other programming languages. Excel also provides many built-in functions and objects that can be used in VBA code, making it easy to access and manipulate data in a spreadsheet.
+
+#### Most modern programming languages have a set up similar building blocks, for example 
 1. Receiving input from the user and Showing output to the user
 2. Ability to store values in variables (usually of different kinds such as integers, floating points or character)
 3. A string of characters where you can store names, addresses, or any other kind of text
@@ -19,6 +25,7 @@ Most modern programming languages have a set up similar building blocks, for exa
 
 Lets dive right in and see how we can do these things in VBA. 
 
+#### 0. Enable VBA in your Excel file
 Before we can begin to write a program in VBA, also known as a macro, we need to enable the developer tab. You can do this by going to the File > Options > Customise ribbon. Once the developer tab is available, go there and choose the leftmost option which says Visual Basic. Now you will see a panel in the left where you can double clock on the sheet name you are working on. This will open a empty code window. Here write the following code and save the file as a macro enabled workbook (extension will be .xlsb). 
 
 ```vb
@@ -74,8 +81,7 @@ If continue = True Then MsgBox "Boolean variables are cool"
 ```
 
 #### 3. A string of characters where you can store names, addresses, or any other kind of text
-##### Key idea here is to learn how to manipulate string variables
-There are a few common operations that we will focus on:
+Key idea here is to learn how to manipulate string variables. There are a few common operations that we will focus on:
 a. Joining strings
 ```vb
 'Join Strings
@@ -254,6 +260,8 @@ We can tell VBA that a line of code is a comment by starting it with an single i
 ```vb
 'this is a comment
 ```
+
+Overall, Excel VBA is a powerful tool that can help users automate tasks, improve productivity, and enhance the functionality of Microsoft Excel. With its flexibility and ease of use, VBA is a valuable tool for users of all skill levels, from beginners to advanced programmers.
 
 To close I will emphasize the importance of practicing in learning anything new. Persistence and trying out different combinations of these building blocks for solving easier problems first and more complex ones later on is the only way to become fluent.
 

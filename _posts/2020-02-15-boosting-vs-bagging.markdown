@@ -6,7 +6,7 @@ permalink: /strategy/boosting_vs_bagging
 ---
 In machine learning, there are two popular techniques for improving the accuracy of models: boosting and bagging. Both techniques are used to reduce the variance of a model, which is the tendency to overfit to the training data. While they have similar goals, they differ in their approach and functionality. In this article, we'll explore the differences between boosting and bagging to help you decide which technique is right for your machine learning project.
 
-![boosting-vs-bagging](/images/strategy/boosting-vs-bagging.jpg){:class="img-responsive"}
+![boosting-vs-bagging](/images/strategy/boosting-vs-bagging.jpeg){:class="img-responsive"}
 
 Bagging:
 Bagging, short for bootstrap aggregating, is a technique that involves training multiple models on different random subsets of the training data. The goal of bagging is to reduce the variance of a model by averaging the predictions of multiple models. Each model in the ensemble is trained independently and the final prediction is the average of all models. Bagging can be used with any algorithm, but it is most commonly used with decision trees. The most popular implementation of bagging is the random forest algorithm, which uses an ensemble of decision trees to make predictions.

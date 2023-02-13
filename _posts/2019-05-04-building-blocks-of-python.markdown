@@ -1,9 +1,19 @@
 ---
 layout: post
-title: "Building Blocks of Python"
-categories: building blocks, python, learn programming
+title: "Programming in Python"
+categories: programming, python
 ---
-#### Python’s design philosophy emphasizes code readability with its notable use of significant whitespace.
+Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is a general-purpose language that is designed to be easy to use, with a focus on readability and simplicity. Python is often used for web development, data analysis, artificial intelligence, scientific computing, and other types of software development.
+
+One of the key features of Python is its ease of use. Python's syntax is designed to be simple and intuitive, making it accessible to both beginner and experienced programmers. Python is also an interpreted language, meaning that it does not require compilation, which makes it easy to write and test code quickly.
+
+Another important feature of Python is its support for object-oriented programming. Python allows users to create classes and objects, and to define methods on those objects. This makes it a powerful tool for building complex software systems.
+
+Python also includes a large and growing library of built-in modules and packages. These modules provide a wide range of functionality, from working with strings, arrays, and dictionaries to working with databases, web frameworks, and machine learning tools. Python's open-source ecosystem is one of its biggest strengths, as it allows developers to easily access and integrate with a wide range of third-party libraries and tools.
+
+One of the most popular web development frameworks built in Python is Django. Django is a full-stack web framework that provides a set of conventions and tools for building web applications quickly and easily. With its focus on developer productivity, Django has become a popular choice for startups, small businesses, and large enterprises.
+
+Python's popularity has also been driven by its use in data analysis and scientific computing. With packages like NumPy, Pandas, and Matplotlib, Python has become a leading language for data analysis and visualization. In recent years, Python has also become a popular language for artificial intelligence and machine learning, with packages like TensorFlow, PyTorch, and Scikit-learn providing powerful tools for building machine learning models.
 
 Most modern programming languages have a set up similar building blocks, for example 
 1. Receiving input from the user and Showing output to the user
@@ -19,6 +29,7 @@ Most modern programming languages have a set up similar building blocks, for exa
 
 Lets dive right in and see how we can do these things in Python. 
 
+#### 0. How to install Ruby on your desktop?
 Before we can begin to write a program in Python, we need to install [Anaconda](https://www.anaconda.com/products/individual). This will install the Anaconda data science environment and Spyder IDE for coding in Python. Once done, go ahead and open Spyder and try out the following code to see if everything is in order.  
 
 ```python
@@ -370,6 +381,8 @@ comment
 block
 '''
 ```
+
+Overall, Python is a versatile and powerful programming language that is well-suited for a wide range of programming tasks. With its emphasis on simplicity, object-oriented design, and a large and growing ecosystem of third-party libraries and tools, Python is a valuable tool for both beginner and experienced programmers. Whether building web applications, analyzing data, or working on artificial intelligence projects, Python provides a fast, flexible, and enjoyable development experience.
 
 To close I will emphasize the importance of practicing in learning anything new. Persistence and trying out different combinations of these building blocks for solving easier problems first and more complex ones later on is the only way to become fluent.
 

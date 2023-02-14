@@ -23,7 +23,7 @@ After running k-means clustering, you will have a set of customer segments based
 Step 5: Refine and Iterate
 Customer segmentation is an ongoing process, and you may need to refine and iterate your clusters over time. As your business evolves, your customer segments may change, and you may need to adjust your clustering approach to reflect these changes. It's important to continue to gather data, refine your clustering approach, and use your customer segments to inform your marketing strategies.
 
-#### basic implementation of customer segmentation using k-means clustering in Python
+#### Basic implementation of customer segmentation using k-means clustering in Python
 In this example, customer_data.csv is a file containing the customer data with three features: feature1, feature2, and feature3. We extract these features and perform k-means clustering with 5 clusters. We then add the cluster labels to the original dataframe and visualize the clusters using a scatter plot of feature1 and feature2, with each point colored according to its assigned cluster.
 
 ```python

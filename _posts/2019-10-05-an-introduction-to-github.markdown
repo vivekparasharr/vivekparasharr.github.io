@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Introduction to GitHub"
-categories: github
+categories: version control, github
 ---
 A three part article series on version control using Git and GitHub. 
 
@@ -9,22 +9,15 @@ This is the third article in the series in which I will give a very brief introd
 
 GitHub is a popular platform for hosting and sharing code repositories, and is widely used for version control and collaborative coding projects. If you're new to using GitHub for version control, here are some key things to keep in mind:
 
-    Create a GitHub account: The first step in using GitHub is to create an account. You can sign up for a free account, which gives you access to public repositories, or a paid account, which gives you access to private repositories and additional features.
-
-    Create a new repository: Once you have an account, you can create a new repository by clicking the "New repository" button on your GitHub dashboard. You can choose to make the repository public or private, and can add a README file and other files as needed.
-
-    Clone the repository to your local machine: Once you have created a repository on GitHub, you can clone it to your local machine using Git. This allows you to make changes to the code locally, and push those changes back to the remote repository on GitHub.
-
-    Make changes and commit them: Once you have cloned the repository to your local machine, you can make changes to the code and commit those changes to Git. Be sure to write clear and descriptive commit messages that explain the changes made.
-
-    Push changes to the remote repository: After committing changes to Git, you can push those changes back to the remote repository on GitHub. This allows other team members to see the changes and collaborate on the code.
-
-    Use pull requests for code reviews: When working on a team, it's a good practice to use pull requests to review code changes before merging them into the main branch. This allows other team members to review the code and provide feedback before changes are merged.
-
-    Use branches for new features or bug fixes: When working on a new feature or bug fix, it's important to create a new branch in Git rather than making changes directly to the main branch. This keeps the main branch stable and allows for easier collaboration with other team members.
+- Create a GitHub account: The first step in using GitHub is to create an account. You can sign up for a free account, which gives you access to public repositories, or a paid account, which gives you access to private repositories and additional features.
+- Create a new repository: Once you have an account, you can create a new repository by clicking the "New repository" button on your GitHub dashboard. You can choose to make the repository public or private, and can add a README file and other files as needed.
+- Clone the repository to your local machine: Once you have created a repository on GitHub, you can clone it to your local machine using Git. This allows you to make changes to the code locally, and push those changes back to the remote repository on GitHub.
+- Make changes and commit them: Once you have cloned the repository to your local machine, you can make changes to the code and commit those changes to Git. Be sure to write clear and descriptive commit messages that explain the changes made.
+- Push changes to the remote repository: After committing changes to Git, you can push those changes back to the remote repository on GitHub. This allows other team members to see the changes and collaborate on the code.
+- Use pull requests for code reviews: When working on a team, it's a good practice to use pull requests to review code changes before merging them into the main branch. This allows other team members to review the code and provide feedback before changes are merged.
+- Use branches for new features or bug fixes: When working on a new feature or bug fix, it's important to create a new branch in Git rather than making changes directly to the main branch. This keeps the main branch stable and allows for easier collaboration with other team members.
 
 By keeping these key things in mind when using GitHub for version control, you can help ensure that your codebase is well-organized, well-documented, and easy to collaborate on with other team members.
-
 
 Now, let us explore some of the key components of GitHub. 
 

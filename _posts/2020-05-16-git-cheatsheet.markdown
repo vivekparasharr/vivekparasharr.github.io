@@ -7,6 +7,22 @@ A three part article series on version control using Git and GitHub.
 
 This is the second article in the series in which I will share my Git cheatsheet. This will enable the reader to quickly recall important commands to aid development. 
 
+First, here are five key things to remember when using Git for version control:
+
+    Always create a new branch for new features or bug fixes: When working on a new feature or bug fix, it's important to create a new branch in Git rather than making changes directly to the main branch. This keeps the main branch stable and allows for easier collaboration with other team members.
+
+    Commit early and often: It's a good practice to commit changes to Git as often as possible, rather than waiting until the end of the day or the end of a coding session. This makes it easier to track changes and roll back to previous versions if needed.
+
+    Write clear commit messages: When committing changes to Git, be sure to write clear and descriptive commit messages that explain the changes made. This makes it easier for other team members to understand the changes and can save time during code reviews.
+
+    Use Git pull requests for code reviews: When working on a team, it's a good practice to use Git pull requests to review code changes. This allows other team members to review the code and provide feedback before changes are merged into the main branch.
+
+    Keep your Git repository organized: Make sure that your Git repository is organized and easy to navigate, with clear file and folder structures. This makes it easier to find specific files and makes the code repository more manageable over time.
+
+By keeping these five key things in mind when using Git for version control, you can help ensure that your codebase is well-organized, well-documented, and easy to collaborate on with other team members.
+
+Now lets review some basic commands. 
+
 #### Getting & Creating Projects
 
 | Command | Description |

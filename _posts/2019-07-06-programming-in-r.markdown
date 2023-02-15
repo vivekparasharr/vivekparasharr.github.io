@@ -1,9 +1,17 @@
 ---
 layout: post
-title: "Building Blocks of R"
-categories: building blocks, r, rstats, learn programming
+title: "Programming in R"
+categories: programming, r, rstats
 ---
-#### Programming language for statistical analysis, graphics representation and reporting.
+R is a programming language and environment for statistical computing and graphics. It was created in the early 1990s by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. R is now widely used in academia, industry, and government for data analysis, statistical modeling, and data visualization.
+
+One of the key features of R is its wide range of statistical and graphical techniques. R provides a vast array of statistical and graphical methods, including linear and nonlinear modeling, classical statistical tests, time-series analysis, classification, clustering, and graphical techniques for data visualization. R is also highly extensible and has an active community of users and developers who create and contribute packages that enhance the capabilities of the language.
+
+R is an open-source language, which means that the code is available for free and can be modified and redistributed. This has led to the development of a large and active community of R users and developers. The R community provides a wealth of resources, including documentation, tutorials, and help forums, making it easy for users to get started with the language and to find solutions to their problems.
+
+One of the advantages of R is its integration with other programming languages and data sources. R can read data from a wide range of sources, including text files, spreadsheets, databases, and web services. R can also interact with other programming languages, such as Python, Java, and C++, allowing users to take advantage of the strengths of different languages and libraries.
+
+Another advantage of R is its versatility. R can be used for a wide range of tasks, from data analysis and visualization to machine learning and artificial intelligence. R can also be used in a variety of settings, from research and academia to industry and government.
 
 Most modern programming languages have a set up similar building blocks, for example 
 1. Receiving input from the user and Showing output to the user
@@ -114,8 +122,7 @@ print(BMI)
 #### 3. A string of characters where you can store names, addresses, or any other kind of text
 Any value written within a pair of single quote or double quotes in R is treated as a string. 
 
-##### Key idea here is to learn how to manipulate string variables
-There are a few common operations that we will focus on:
+Key idea here is to learn how to manipulate string variables. There are a few common operations that we will focus on:
 a. Concatenate strings
 ```r
 # Concatenate strings
@@ -393,6 +400,7 @@ We can tell R that a line of code is a comment by starting it with a #.
 ```r
 # this is a comment
 ```
+In summary, R is a powerful and versatile programming language that is widely used for statistical computing and graphics. Its extensive range of statistical and graphical techniques, its open-source nature, and its active community of users and developers make it a valuable tool for data analysis and modeling. Whether you are a researcher, data analyst, or developer, R provides a wide range of tools and resources for working with data and creating meaningful insights.
 
 To close I will emphasize the importance of practicing in learning anything new. Persistence and trying out different combinations of these building blocks for solving easier problems first and more complex ones later on is the only way to become fluent.
 

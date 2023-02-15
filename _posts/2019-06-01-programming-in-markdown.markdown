@@ -1,11 +1,17 @@
 ---
 layout: post
-title: "Building Blocks of Markdown"
-categories: building blocks, markdown, learn programming
+title: "Programming in Markdown"
+categories: programming, markdown
 ---
-### What is Markdown?
+Markdown is a lightweight markup language that is used to format text in a simple and consistent way. It was first created in 2004 by John Gruber and Aaron Swartz as a way to write content for the web that was easy to read and write.
 
-Markdown is a lightweight markup language used to create rich text using a plain text editor. It is often used for formatting readme files and for creating static webpages using Jekyll. Some of its popular cousins form the markup family are HTML and XML. 
+Markdown is designed to be easy to learn and use. It uses simple syntax to format text, making it easy to create headings, lists, links, and other formatting elements. Markdown can be used in a wide variety of contexts, including writing blog posts, creating documentation, and writing code comments.
+
+One of the key features of Markdown is its simplicity. Markdown uses plain text that can be easily read and edited using any text editor. This makes it easy to collaborate on documents and to transfer files between different devices and platforms. Additionally, Markdown is supported by a wide variety of software tools and platforms, including blogging platforms, content management systems, and online forums.
+
+Another important feature of Markdown is its flexibility. Markdown can be customized and extended to support a wide variety of use cases. For example, Markdown supports the creation of tables, code blocks, and mathematical equations. Additionally, there are many third-party tools and libraries that extend the functionality of Markdown, such as Pandoc, which can convert Markdown to other formats like HTML, LaTeX, and PDF.
+
+Markdown is also popular among programmers, as it can be used to create code blocks and inline code snippets. This is particularly useful for writing documentation and sharing code examples. Many code editors also support Markdown, allowing programmers to write and preview Markdown documents without leaving their development environment.
 
 Following table provides a quick overview of frequently used Markdown syntax elements. It does not cover every case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
 
@@ -124,6 +130,7 @@ lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsu
 lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
 lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
 
+In summary, Markdown is a simple and flexible markup language that is widely used for formatting text on the web. Its simplicity and ease of use make it an attractive option for writing and sharing documents, and its flexibility allows it to be customized and extended to support a wide variety of use cases. Whether writing blog posts, creating documentation, or sharing code examples, Markdown is a valuable tool for anyone who wants to format text in a consistent and easy-to-read way.
 
 For a more complete list consider visiting [Codebase](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown).
 

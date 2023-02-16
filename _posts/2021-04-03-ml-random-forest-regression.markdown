@@ -8,6 +8,8 @@ Random forest regression is a popular machine learning algorithm used for predic
 #### What is Random Forest Regression?
 Random forest regression is an ensemble learning method that builds a collection of decision trees and aggregates their predictions to make a final prediction. Each decision tree is built using a subset of the training data and a subset of the features. Random forest regression uses bagging (bootstrap aggregating) to build each tree and random feature selection to reduce overfitting.
 
+---
+
 #### Implementing random forest regression using Python:
 
 ##### Step 1: Import Libraries
@@ -67,8 +69,8 @@ prediction = rf.predict(new_sample)
 print('Prediction: {:.2f}'.format(prediction[0]))
 ```
 
-
 ---
+
 #### Implementing random forest regression using R:
 ##### Step 1: Import Libraries
 Let's start by loading the necessary packages and data for our implementation:
@@ -119,7 +121,7 @@ plot(predictions, mtcars[test, "mpg"],
 ```
 This will produce a scatter plot with the predicted values on the x-axis and the actual values on the y-axis.
 
-
+---
 
 #### Conclusion
 In this article, we learned how to implement random forest regression using Python and R. We used the scikit-learn library in Python and randomForest library in R to build and evaluate the model. Random forest regression is a powerful algorithm for predicting continuous values and can be used for a variety of regression problems.

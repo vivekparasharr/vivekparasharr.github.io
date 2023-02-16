@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Regression Techniques at Work - WIP"
+title: "Support Vector Regression"
 categories: regression, xx
 ---
 

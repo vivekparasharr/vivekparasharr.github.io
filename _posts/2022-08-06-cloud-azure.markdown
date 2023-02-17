@@ -31,6 +31,129 @@ There are several options to access Azure services:
 
 #### Let us explore these services one-by-one:
 ##### Azure Virtual Machines
+Azure Virtual Machines (VMs) are a key component of many cloud-based solutions. Azure CLI provides a powerful command-line interface for managing and interacting with Azure resources, including Azure Virtual Machines. Here are some common operations that can be performed using Azure CLI on Azure Virtual Machines:
+
+```bash
+# Create a Virtual Machine: requires resource group name, virtual machine name, and operating system image.
+az vm create
+
+# Start/Stop a Virtual Machine: require the resource group name and virtual machine name
+az vm start 
+az vm stop
+
+# List Virtual Machines: provides information such as the name, resource group, location, and status of each Virtual Machine
+az vm list
+
+# Connect to a Virtual Machine: requires the resource group name and virtual machine name, and it will open an SSH connection to the specified VM
+az vm ssh command
+
+# Resize a Virtual Machine: requires the resource group name, virtual machine name, and the new size of the Virtual Machine
+az vm resize
+
+# Delete a Virtual Machine: requires the resource group name and virtual machine name, and it will delete the specified VM
+az vm delete
+
+# View Virtual Machine properties: requires the resource group name and virtual machine name, and it will provide detailed information about the specified VM
+az vm show
+```
+
+##### Azure App Service
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure Functions
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure Blob Storage
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure SQL Database
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure Active Directory
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure Cosmos DB
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure Machine Learning
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure DevOps
+
+```bash
+
+```
+
+```python
+
+```
+
+
+##### Azure Kubernetes Service
+
+```bash
+
+```
+
+```python
+
+```
 
 
 Comments welcome!

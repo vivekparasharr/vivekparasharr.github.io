@@ -17,17 +17,13 @@ Boosting is a technique that involves training multiple weak models on the same 
 Differences between Boosting and Bagging:
 While boosting and bagging have similar goals, they differ in their approach and functionality. The main differences between these two techniques are:
 
-    Approach:
-    Bagging involves training multiple models independently on different random subsets of the training data, while boosting trains multiple models sequentially on the same dataset with different weights assigned to each sample.
+- Approach: Bagging involves training multiple models independently on different random subsets of the training data, while boosting trains multiple models sequentially on the same dataset with different weights assigned to each sample.
 
-    Sample Weighting:
-    Bagging assigns equal weight to each sample in the training data, while boosting assigns higher weight to misclassified samples.
+- Sample Weighting: Bagging assigns equal weight to each sample in the training data, while boosting assigns higher weight to misclassified samples.
 
-    Model Selection:
-    In bagging, the final prediction is the average of all models in the ensemble, while in boosting, the final prediction is a weighted average of all models in the ensemble.
+- Model Selection: In bagging, the final prediction is the average of all models in the ensemble, while in boosting, the final prediction is a weighted average of all models in the ensemble.
 
-    Performance:
-    Bagging can reduce the variance of a model and improve its stability, but it may not improve its accuracy. Boosting can improve the accuracy of a model, but it may increase its variance and overfitting.
+- Performance: Bagging can reduce the variance of a model and improve its stability, but it may not improve its accuracy. Boosting can improve the accuracy of a model, but it may increase its variance and overfitting.
 
 Conclusion:
 In conclusion, boosting and bagging are two popular techniques for improving the accuracy of machine learning models. While they have similar goals, they differ in their approach and functionality. Bagging involves training multiple models independently on different subsets of the training data, while boosting trains multiple models sequentially on the same dataset with different weights assigned to each sample. Which technique is right for your machine learning project depends on your specific needs and goals. Bagging can improve model stability, while boosting can improve model accuracy.

@@ -3,8 +3,6 @@ layout: post
 title: "Analyzing Website Traffic Using Google Analytics and AWS"
 categories: web analytics, website analytics, google analytics, aws, ec2, python, plotly
 ---
-Over the last couple of weeks I took a few courses on Google Analytics and AWS. This led me to thinking that maybe I can install Google Analytics property on my blog and see if I can pull any useful data from there. Also wanted to check if the data can be analyzed using an EC2 instance on AWS instead of my local computer. 
-
 To analyze website traffic using Google Analytics and AWS, you can follow these high-level steps:
 
 - Set up a Google Analytics account and obtain the tracking code for your website.

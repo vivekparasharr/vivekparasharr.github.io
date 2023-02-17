@@ -8,8 +8,6 @@ author:
 - Richard Vogg
 permalink: /strategy/optimizing_retention_through_machine_learning
 ---
-#### Co-author: [Richard Vogg](https://github.com/richardvogg)
-
 Acquiring a new customer in the financial services sector can be as much as five to 25 times more expensive than retaining an existing one. Therefore, prevention of costumer churn is of paramount importance for the business.  Advances in the area of Machine Learning, availability of large amount of customer data, and more sophisticated methods for predicting churn can help devise data backed strategy to prevent customers from churning.
 
 ![optimizing-retention](/images/strategy/optimizing-retention.png){:class="img-responsive"}

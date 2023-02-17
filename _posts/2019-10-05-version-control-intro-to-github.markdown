@@ -3,9 +3,7 @@ layout: post
 title: "An Introduction to GitHub"
 categories: version control, github
 ---
-A three part article series on version control using Git and GitHub. 
-
-This is the third article in the series in which I will give a very brief introduction to GitHub. This will allow most readers to understand enough to utilize it for version control during development. 
+A three part article series on version control using Git and GitHub. This is the third article in the series in which I will give a very brief introduction to GitHub. This will allow most readers to understand enough to utilize it for version control during development. 
 
 GitHub is a popular platform for hosting and sharing code repositories, and is widely used for version control and collaborative coding projects. If you're new to using GitHub for version control, here are some key things to keep in mind:
 

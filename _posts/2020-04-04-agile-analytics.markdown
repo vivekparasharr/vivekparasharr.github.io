@@ -4,7 +4,7 @@ title: "An Agile Approach to Analytics"
 categories: project, product, management, agile, analytics, scrum, waterfall, sprint
 permalink: /strategy/agile-analytics
 ---
-#### Scrum methodology to implement Agile philosophy for Analytics teams. 
+Scrum is an agile framework for software development, but it can also be applied to other types of projects, including analytics. Scrum emphasizes collaboration, continuous improvement, and flexibility. It is designed to help teams work together to deliver high-quality results quickly and efficiently. In this article, we'll discuss how to use Scrum in analytics teams.
 
 ![optimizing-retention](/images/strategy/waterfall-to-agile-revised.jpg){:class="img-responsive"}
 

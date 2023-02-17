@@ -3,9 +3,7 @@ layout: post
 title: "Git Cheatsheet"
 categories: version control, git, cheatsheet
 ---
-A three part article series on version control using Git and GitHub. 
-
-This is the second article in the series in which I will share my Git cheatsheet. This will enable the reader to quickly recall important commands to aid development. 
+A three part article series on version control using Git and GitHub. This is the second article in the series in which I will share my Git cheatsheet. This will enable the reader to quickly recall important commands to aid development. 
 
 First, here are five key things to remember when using Git for version control:
 

@@ -3,9 +3,6 @@ layout: post
 title: "Statistical Distributions"
 categories: statistics, describe, data, mean, variance, standard deviation, normal, skewness, kurtosis
 ---
-### Statistical Distributions!
-##### The normal distribution is the most important probability distribution in statistics because it fits many natural phenomena.
-
 In this article we will cover some distributions that I have found useful while analysing data. I have split them based on whether they are for a continuous or a discrete random variable. First I give a small theoretical introduction about the distribution, its probability density function, and then how to use python to represent it graphically.  
 
 ![combined](/images/distributions/2021-04-09.png){:class="img-responsive"}

@@ -4,7 +4,9 @@ title: "Describe your data using Python"
 categories: statistics, describe, data, mean, variance, standard deviation, normal, skewness, kurtosis
 ---
 ![world-of-statistics](/images/mathematics/statistics00.png){:class="img-responsive"}
-This is the first of a series of articles that I will write to give a gentle introduction to statistics. In this article we will introduce some basic statistical concepts and learn how to use basic statistics to help you describe your data. We will cover the following topics in this article:
+This is the first of a series of articles that I will write to give a gentle introduction to statistics. In this article we will introduce some basic statistical concepts and learn how to use basic statistics to help you describe your data. 
+
+We will cover the following topics in this article:
 - The difference between a population and a sample
 - The difference between Descriptive and Inferential statistics
 - Different types of variables

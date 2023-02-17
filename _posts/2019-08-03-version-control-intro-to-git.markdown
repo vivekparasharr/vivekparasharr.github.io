@@ -3,9 +3,7 @@ layout: post
 title: "An Introduction to Git"
 categories: version control, git
 ---
-A three part article series on version control using Git and GitHub. 
-
-This is the first article in the series in which I will give a very brief introduction to Git. This will allow most readers to understand enough to utilize it for version control during development. 
+A three part article series on version control using Git and GitHub. This is the first article in the series in which I will give a very brief introduction to Git. This will allow most readers to understand enough to utilize it for version control during development. 
 
 Git is a popular version control system that allows developers to manage and track changes to their code over time. It's an essential tool for software development teams, as it helps to ensure that changes to code are properly tracked and documented, and makes it easier for developers to collaborate and work together. Here's an overview of what Git is and how it works.
 

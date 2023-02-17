@@ -179,6 +179,31 @@ body = response['Body'].read()
 print(body.decode())
 ```
 
+Example code that uses the boto3 library to connect to an S3 bucket, list the contents of a folder, and download the latest file based on its modified timestamp:
+```python
+
+import boto3
+from datetime import datetime
+
+# set up S3 client
+s3 = boto3.client('s3')
+
+# specify bucket and folder
+bucket_name = 'my-bucket'
+folder_name = 'my-folder/'
+
+# list all files in the folder
+response = s3.list_objects(Bucket=bucket_name, Prefix=folder_name)
+
+# sort the files by last modified time
+files = response['Contents']
+files = sorted(files, key=lambda k: k['LastModified'], reverse=True)
+
+# download the latest file
+latest_file = files[0]['Key']
+s3.download_file(bucket_name, latest_file, 'local_filename')
+```
+
 ##### EBS (Elastic Block Storage)
 Amazon Elastic Block Store (EBS) is a block-level storage service that provides persistent block storage volumes for use with Amazon EC2 instances. EBS volumes are highly available and reliable storage volumes that can be attached to running instances, allowing you to store persistent data separate from the instance itself. EBS volumes are designed for mission-critical systems, so they are optimized for low-latency and consistent performance. EBS also supports point-in-time snapshots, which can be used for backup and disaster recovery.
 

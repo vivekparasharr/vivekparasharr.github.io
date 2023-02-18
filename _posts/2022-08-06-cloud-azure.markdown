@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Important Azure Services that you need to Know Now"
+title: "Important Azure Services that you need to Know Now - WIP"
 categories: statistics, xx
 ---
 Azure is a cloud computing platform and set of services offered by Microsoft. It provides a wide range of services such as virtual machines, databases, storage, and networking, among others, that users can access and use to build, deploy, and manage their applications and services. Azure also offers a variety of tools and services to help users with tasks such as data analytics, artificial intelligence, and machine learning. Azure provides a pay-as-you-go pricing model, allowing users to only pay for the services they use.

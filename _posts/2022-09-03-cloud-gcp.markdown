@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Important GCP Services that you need to Know Now"
+title: "Important GCP Services that you need to Know Now - WIP"
 categories: statistics, xx
 ---
 Google Cloud Platform (GCP) is a cloud computing platform offered by Google. GCP provides a comprehensive set of tools and services for building, deploying, and managing cloud applications. It includes services for compute, storage, networking, machine learning, analytics, and more. Some of the most commonly used GCP services include Compute Engine, Cloud Storage, BigQuery, and Kubernetes Engine.

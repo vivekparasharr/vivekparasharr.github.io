@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Programming in Julia"
-categories: programming, julia 
+title: "Introduction to Programming in Julia"
+categories: programming, julia
+permalink: /programming/julia
 ---
 Julia is a high-level, high-performance programming language that was created in 2012 by a team of computer scientists led by Jeff Bezanson, Stefan Karpinski, and Viral Shah. Julia was designed to address the limitations of traditional scientific computing languages, such as MATLAB, Python, and R, while still retaining their ease of use and flexibility.
 

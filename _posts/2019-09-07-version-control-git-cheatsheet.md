@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Git Cheatsheet"
-categories: version control, git, cheatsheet
+categories: programming, version control, git
+permalink: /programming/git-cheatsheet
 ---
 A three part article series on version control using Git and GitHub. This is the second article in the series in which I will share my Git cheatsheet. This will enable the reader to quickly recall important commands to aid development. 
 

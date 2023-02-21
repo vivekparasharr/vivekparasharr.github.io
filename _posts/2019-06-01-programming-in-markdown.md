@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Programming in Markdown"
-categories: programming, markdown
+title: "Introduction to Programming in Markdown"
+categories: programming, markdown, md
+permalink: /programming/markdown
 ---
 Markdown is a lightweight markup language that is used to format text in a simple and consistent way. It was first created in 2004 by John Gruber and Aaron Swartz as a way to write content for the web that was easy to read and write.
 

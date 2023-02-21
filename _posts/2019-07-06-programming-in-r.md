@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Programming in R"
+title: "Introduction to Programming in R"
 categories: programming, r, rstats
+permalink: /programming/r
 ---
 R is a programming language and environment for statistical computing and graphics. It was created in the early 1990s by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. R is now widely used in academia, industry, and government for data analysis, statistical modeling, and data visualization.
 

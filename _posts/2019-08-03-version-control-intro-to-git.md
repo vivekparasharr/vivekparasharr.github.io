@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "An Introduction to Git"
-categories: version control, git
+categories: programming, version control, git
+permalink: /programming/git-intro
 ---
 A three part article series on version control using Git and GitHub. This is the first article in the series in which I will give a very brief introduction to Git. This will allow most readers to understand enough to utilize it for version control during development. 
 

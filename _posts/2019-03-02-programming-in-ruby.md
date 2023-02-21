@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Programming in Ruby"
-categories: programming, ruby 
+title: "Introduction to Programming in Ruby"
+categories: programming, ruby, rb
+permalink: /programming/ruby
 ---
 Ruby is a high-level, interpreted programming language that was created in the mid-1990s by Yukihiro "Matz" Matsumoto. It is a general-purpose language that is designed to be easy to use and read, with syntax that is similar to natural language. Ruby is often used for web development, as well as for building command-line utilities, desktop applications, and other types of software.
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Programming in C++"
-categories: programming, c, c++, cpp
+title: "Introduction to Programming in C++"
+categories: programming, c++, cpp
+permalink: /programming/cpp
 ---
 C++ is a powerful and popular programming language that was developed in the 1980s as an extension of the C programming language. It is a high-level, object-oriented language that is used to develop a wide range of applications, including operating systems, device drivers, game engines, and more. C++ is also widely used in the field of finance and quantitative analysis, due to its speed and efficiency.
 

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Optimizing Retention through Machine Learning"
-categories: strategy, optimizing, optimizing retention, reducing churn, churn, machine learning, ml
+categories: strategy, optimizing retention, reducing churn
 meta: "strategy"
 author:
 - Vivek Parashar
 - Richard Vogg
-permalink: /strategy/optimizing_retention_through_machine_learning
+permalink: /strategy/optimizing-retention
 ---
 Acquiring a new customer in the financial services sector can be as much as five to 25 times more expensive than retaining an existing one. Therefore, prevention of costumer churn is of paramount importance for the business.  Advances in the area of Machine Learning, availability of large amount of customer data, and more sophisticated methods for predicting churn can help devise data backed strategy to prevent customers from churning.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "30 Day Daily Chart Challenge April 2021"
+title: "30 Day Daily Chart Challenge"
 categories: chart challenge, visualization, daily
 ---
 During the month of April 2021, I participated in the [#30DayMapChallenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021), a daily social data project hosted by [Cédric Scherer](https://github.com/z3tt), [Maya Gans](https://github.com/MayaGans) and [Dominic Royé](https://github.com/dominicroye). In this blog post I wanted to briefly talk about the project and share my experience, learnings in terms of data and tools used, and challenges faced. However, before I delve into that, here is a collage of [my submissions](/images/Challenges-and-Competitions/2021-04-Charts-Combined2.jpg). 

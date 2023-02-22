@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "30 Day Daily Map Challenge November 2020"
+title: "30 Day Daily Map Challenge"
 categories: map challenge, gis data, daily
 ---
 The #30DayMapChallenge was a daily social mapping project held in November 2020 that I participated in. I had a good understanding of Python before participating but very less knowledge of working with GIS data. So I had plotted some data on maps using Microsoft Excel, the data for which was usually in tabular format in an Excel or CSV. However, I had never heard of Shape files, DEM – Digital Elevation Models, DSM – Digital Surface Models, or DTM – Digital Terrain Models, etc. Understanding these formats, what they contain and how they can be processed was the biggest challenge I encountered. 

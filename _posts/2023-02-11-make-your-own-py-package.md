@@ -16,20 +16,20 @@ Packaging in Python is the process of creating distributable packages of code th
 ---
 
 #### Process of creating a package
+Here's an example of a Python package with functions to add and subtract two numbers and how to make it available in Amazon SageMaker
+
 ##### Create package directory
-Here's an example of a Python package with functions to add and subtract two numbers and how to make it available in Amazon SageMaker:
-- Create a new directory for your package and navigate to it in your terminal or command prompt.
-- Create a new file called __init__.py in your package directory. This file is required to make your directory a Python package.
-- Create a new file called math.py in your package directory. This file will contain the functions to add and subtract two numbers.
-- Your directory structure should look something like this:
+First, create a new directory for your package and navigate to it in your terminal or command prompt.
+Then, Create a new file called __init__.py in your package directory. This file is required to make your directory a Python package.
+Then, create a new file called vp_math.py in your package directory. This file will contain the functions to add and subtract two numbers. Your directory structure should look something like this:
 ```lua
-my_package/
+vp_package/
     __init__.py
-    math.py
+    vp_math.py
 ```
 
-##### Add code
-- Now you can add the following code to your math.py file:
+##### Adding code
+Now you can add the following code to your vp_math.py file:
 ```python
 def add(x, y):
     return x + y
@@ -39,29 +39,33 @@ def subtract(x, y):
 ```
 
 ##### Create a setup.py file
-- Create a setup.py file in your package directory, with the following code:
+Now, create a setup.py file in your package directory, with the following code:
 ```python
 from setuptools import setup
 
 setup(
-    name='my_package',
+    name='vp_package',
     version='0.0.1',
     description='A basic package with functions to add and subtract two numbers',
-    packages=['my_package']
+    packages=['vp_package']
 )
 ```
 
+---
+
 ##### Build and package
-- Build and package the distribution file by running the following command in your terminal or command prompt in your package directory:
+Now, build and package the distribution file by running the following command in your terminal or command prompt in your package directory:
 ```bash
 python setup.py sdist
 ```
 This will create a .tar.gz file in a newly created dist directory.
 
+---
+
 ##### Upload the package to a shared place
 Upload the package to a S3 bucket that SageMaker can access. For this, you can use the AWS CLI, for example:
 ```bash
-aws s3 cp dist/my_package-0.0.1.tar.gz s3://my-bucket/
+aws s3 cp dist/vp_package-0.0.1.tar.gz s3://my-bucket/
 ```
 Make sure to replace my-bucket with the name of the S3 bucket you want to use.
 
@@ -70,14 +74,14 @@ Make sure to replace my-bucket with the name of the S3 bucket you want to use.
 #### How to use the package
 In SageMaker, create a new Jupyter Notebook and include the following code:
 ```python
-!pip install my_package==0.0.1 --target /home/ec2-user/SageMaker/my_package
+!pip install vp_package==0.0.1 --target /home/ec2-user/SageMaker/vp_package
 
-from my_package.math import add, subtract
+from vp_package.vp_math import add, subtract
 
 print(add(2, 3)) # Output: 5
 print(subtract(5, 2)) # Output: 3
 ```
-The !pip install command installs your package into the SageMaker notebook instance. The --target argument tells pip where to install the package, in this case, in the /home/ec2-user/SageMaker/my_package directory.
+The !pip install command installs your package into the SageMaker notebook instance. The --target argument tells pip where to install the package, in this case, in the /home/ec2-user/SageMaker/vp_package directory.
 
 This should import the functions from your package and allow you to use them in SageMaker.
 

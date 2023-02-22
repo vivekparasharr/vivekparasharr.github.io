@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Read from Redshift into a PySpark DataFrame"
+title: "Accessing Redshift using Python and PySpark"
 categories: programming, cloud, redshift, pyspark, redshift-data
-permalink: /cloud/aws/read-from-redshift-to-pyspark-df
+permalink: /cloud/aws/access-redshift
 ---
-Redshift is a cloud-based data warehousing service provided by Amazon Web Services, while Pandas is a popular data analysis library for the Python programming language, and PySpark is a powerful data processing engine that can handle large-scale data processing tasks. In this article, we will explore how to use Pandas and PySpark to read data from Redshift, enabling us to process and analyze large datasets efficiently.
+Redshift is a cloud-based data warehousing service provided by Amazon Web Services, while Pandas is a popular data analysis library for the Python programming language, and PySpark is a powerful data processing engine that can handle large-scale data processing tasks. In this article, we will explore how to use Pandas and PySpark to read data from Redshift, enabling us to process and analyze large datasets efficiently. Further, we will also explore how to write data to a Redshift sandbox. 
 
 #### Read from Redshift using Python Pandas
 To read Redshift data using the redshift-data package and pandas, you can follow these steps:
@@ -68,6 +68,55 @@ df = spark.createDataFrame(pandas_rdd)
 ```
 
 Note: you need to import the pandas package for this to work, and you may need to adjust the code based on your specific Redshift setup.
+
+---
+
+#### Write to Redshift using Python Pandas
+To write a Pandas dataframe into a Redshift sandbox using redshift-data, you can follow these steps:
+
+```python
+# Install the required packages in your Python environment
+pip install pandas redshift-data
+
+# Import the required packages in your Python script
+import pandas as pd
+from redshift_data import RedshiftData
+
+# Create an instance of the RedshiftData class and connect to your Redshift sandbox by passing in your database credentials
+rs_data = RedshiftData(
+    user='your_username',
+    password='your_password',
+    host='your_redshift_host',
+    database='your_database_name',
+    port='your_redshift_port'
+)
+
+# Create a table in your Redshift sandbox with the same structure as your Pandas dataframe. 
+rs_data.execute("""
+    CREATE TABLE your_table_name (
+        column1 datatype1,
+        column2 datatype2,
+        ...
+    )
+""")
+
+# Use the pd.DataFrame.to_csv() method to convert your Pandas dataframe to a CSV file
+df.to_csv('your_dataframe.csv', index=False)
+
+# Use the rs_data.load() method to load the CSV file into your Redshift sandbox
+rs_data.load(
+    'your_table_name',
+    'your_dataframe.csv',
+    delimiter=',',
+    ignore_header=1
+)
+
+# Delete the CSV file using the os.remove() function
+import os
+os.remove('your_dataframe.csv')
+```
+
+By following these steps, you can write a Pandas dataframe into a Redshift sandbox using redshift-data, enabling you to store and analyze your data in a scalable, cost-effective way.
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Implementing Recurrent Neural Networks using Python - WIP"
-categories: statistics, xx
+title: "Implementing Recurrent Neural Networks using Python"
+categories: artificial intelligence, deep learning, recurrent neural networks, rnn
+permalink: /deep-learning/recurrent-neural-networks
 ---
 Recurrent Neural Networks, or RNNs, are a type of artificial neural network designed to process sequential data, such as time-series or natural language. While traditional neural networks process input data independently of one another, RNNs allow for the input of past data to influence current output. This is done by introducing a loop within the neural network, allowing previous output to be fed back into the input layer.
 

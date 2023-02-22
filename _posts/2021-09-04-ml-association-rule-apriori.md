@@ -1,9 +1,14 @@
 ---
 layout: post
 title: "Implementing Association Rule Learning using APRIORI in Python and R"
-categories: statistics, xx
+categories: artificial intelligence, machine learning, association rule learning
+permalink: /machine-learning/association-rule-learning
 ---
-Association rule learning is a popular technique used in the financial services industry for analyzing customer behavior, identifying patterns, and making data-driven decisions. Some examples of using association rule learning in the financial services industry are:
+Association rule learning is a popular technique used in the financial services industry for analyzing customer behavior, identifying patterns, and making data-driven decisions. 
+
+---
+
+Some examples of using association rule learning in the financial services industry are:
 - Cross-selling: Association rule learning can be used to identify the products that are frequently bought together by customers. This information can be used to create targeted cross-selling strategies and improve sales.
 - Fraud detection: Association rule learning can help in detecting fraudulent transactions. By analyzing the patterns of transactions, it can identify the transactions that deviate from the normal patterns and flag them for further investigation.
 - Risk management: Association rule learning can be used to analyze historical data and identify the factors that contributed to the financial risks. Based on these factors, financial institutions can create risk management strategies to mitigate the risks.

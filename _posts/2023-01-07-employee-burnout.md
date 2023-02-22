@@ -2,7 +2,7 @@
 layout: post
 title: "Burnout in Analytics Teams"
 categories: strategy, employee burnout, employee well-being, analytics teams
-permalink: /strategy/employee_burnout
+permalink: /strategy/employee-burnout
 ---
 In today's fast-paced business environment, analytics teams are playing an increasingly critical role in driving decision-making and business strategy. However, the high pressure and demands placed on analytics teams can lead to burnout, which can negatively impact both individual team members and the overall success of the team.
 

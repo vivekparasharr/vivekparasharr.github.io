@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Boosting vs Bagging Model Improvement Techniques"
-categories: modelling, boosting, bagging
-permalink: /strategy/boosting_vs_bagging
+categories: artificial intelligence, machine learning, modelling, boosting, bagging
+permalink: /machine-learning/boosting_vs_bagging
 ---
 In machine learning, there are two popular techniques for improving the accuracy of models: boosting and bagging. Both techniques are used to reduce the variance of a model, which is the tendency to overfit to the training data. While they have similar goals, they differ in their approach and functionality. In this article, we'll explore the differences between boosting and bagging to help you decide which technique is right for your machine learning project.
 

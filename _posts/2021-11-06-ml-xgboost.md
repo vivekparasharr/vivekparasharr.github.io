@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Implementing xgboost in Python"
-categories: statistics, xx
+title: "Implementing XGBoost in Python"
+categories: artificial intelligence, machine learning, modelling, boosting, xgboost
+permalink: /machine-learning/xgboost
 ---
 XGBoost (Extreme Gradient Boosting) is a popular algorithm for supervised learning problems, including regression, classification, and ranking tasks. In the financial services industry, XGBoost can be used for a variety of regression problems, such as predicting stock prices, credit risk scoring, and forecasting financial time series.
 

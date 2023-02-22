@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Overview of Deep Learning Activation Functions"
-categories: statistics, xx
+categories: artificial intelligence, deep learning, activation functions, sigmoid, rectifier, tanh
+permalink: /deep-learning/activation-functions
 ---
 Activation functions are a key component of neural networks in deep learning. They are mathematical functions applied to the output of a neural network layer to determine whether or not a neuron should be activated (i.e., "fired"). This output is then passed to the next layer of the neural network for further processing. There are many different activation functions that can be used in deep learning, including sigmoid, ReLU, and tanh. The choice of activation function can have a significant impact on the performance of a neural network, so it is an important consideration when designing and training a deep learning model.
 

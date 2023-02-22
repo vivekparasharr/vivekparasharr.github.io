@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Implementing Artificial Neural Networks using Python - WIP"
-categories: statistics, xx
+title: "Implementing Artificial Neural Networks using Python"
+categories: artificial intelligence, deep learning, artificial neural networks, ann
+permalink: /deep-learning/artificial-neural-networks
 ---
 Artificial Neural Networks (ANNs) are a type of machine learning model that are designed to simulate the function of a biological neural network. ANNs are composed of interconnected nodes or artificial neurons that process and transmit information to one another. The structure of an ANN consists of an input layer, one or more hidden layers, and an output layer.
 

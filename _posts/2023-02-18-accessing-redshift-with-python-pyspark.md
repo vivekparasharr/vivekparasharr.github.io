@@ -47,7 +47,7 @@ import boto3
 from redshift_data import RedshiftData
 
 # Set up the Spark session:
-spark = SparkSession.builder.appName("
+spark = SparkSession.builder.appName("RedshiftData").getOrCreate()
 
 # Create a RedshiftData object and set up the credentials
 client = RedshiftData(region_name='us-west-2')

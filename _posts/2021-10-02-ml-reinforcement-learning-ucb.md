@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Implementing Reinforcement Learning in Python and R"
-categories: statistics, xx
+categories: artificial intelligence, machine learning, reinforcement learning
+permalink: /machine-learning/reinforcement-learning
 ---
 Reinforcement learning is a branch of machine learning that involves training agents to make a sequence of decisions in an environment to maximize a reward function. The agent receives feedback in the form of a reward signal for every action it takes, and its goal is to learn a policy that maximizes the long-term expected reward. In this article, we'll discuss how to implement reinforcement learning in Python.
 

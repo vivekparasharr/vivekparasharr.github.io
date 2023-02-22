@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Overview of Deep Learning Techniques"
-categories: statistics, xx
+categories: artificial intelligence, deep learning
+permalink: /deep-learning/introduction
 ---
 Deep learning is a subset of machine learning that involves training artificial neural networks to learn and perform complex tasks. While both deep learning and machine learning involve training models on data to make predictions or decisions, deep learning models typically have many layers and are capable of learning increasingly complex representations of data, whereas traditional machine learning models often require feature engineering to create effective representations of data. Additionally, deep learning models are often better suited for tasks such as image recognition, speech recognition, and natural language processing, which require high-dimensional input data and benefit from the ability to learn hierarchical representations of features.
 

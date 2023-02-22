@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Customer Segmentation"
-categories: strategy, customer segmentation, lifecycle, analytics, customer lifecycle analytics
-permalink: /strategy/customer_segmentation
+categories: strategy, customer segmentation, customer lifecycle, analytics
+permalink: /strategy/customer-segmentation
 ---
 Customer segmentation is a critical component of marketing that helps businesses understand their customers better and tailor their marketing strategies to their specific needs. One popular technique for customer segmentation is k-means clustering, which groups customers based on their similarities in various attributes. In this article, we'll discuss how you can use k-means clustering to segment your customers and extract valuable insights from your data.
 

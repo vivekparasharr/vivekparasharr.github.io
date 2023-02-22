@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Implementing Self Organizing Maps using Python - WIP"
-categories: statistics, xx
+title: "Implementing Self Organizing Maps using Python"
+categories: artificial intelligence, deep learning, self organizing map
+permalink: /deep-learning/self-organizing-map
 ---
 SOM stands for Self-Organizing Map, which is a type of artificial neural network that is used for unsupervised learning and dimensionality reduction. SOMs are inspired by the structure and function of the human brain, and they can be used to visualize and explore complex, high-dimensional data in a two-dimensional map or grid.
 

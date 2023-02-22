@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Implementing Convolutional Neural Networks using Python - WIP"
-categories: statistics, xx
+title: "Implementing Convolutional Neural Networks using Python"
+categories: artificial intelligence, deep learning, convolutional neural networks, cnn
+permalink: /deep-learning/convolutional-neural-networks
 ---
 Convolutional Neural Networks (CNNs) are a type of deep neural network that are commonly used in computer vision tasks such as image classification, object detection, and segmentation. They are able to automatically learn and extract features from images, allowing them to identify patterns and structures in complex visual data.
 

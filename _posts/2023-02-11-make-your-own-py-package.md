@@ -71,6 +71,28 @@ Make sure to replace my-bucket with the name of the S3 bucket you want to use.
 
 ---
 
+#### Download and make package available in SageMaker
+You can import a Python package from an S3 bucket by downloading the package to your local machine or server, and then adding the downloaded package to your Python's sys.path. Here are the steps to import a Python package from S3. 
+```bash
+# Download the package from S3 to current directory
+aws s3 cp s3://my-bucket/vp_package-0.0.1.tar.gz .
+
+# Extract the package to a directory named "vp_package-0.0.1"
+tar -xzf vp_package-0.0.1.tar.gz -C vp_package/
+
+# We are also do the above step in a Jupyter Notebook by using ! operator 
+!tar -xzf vp_package-0.0.1.tar.gz -C vp_package/
+
+# Add the package to sys.path to make it importable
+import sys
+sys.path.append("/path/to/vp_package")
+
+# Now, you can import the package and use it as usual
+import vp_package
+```
+
+---
+
 #### How to use the package
 In SageMaker, create a new Jupyter Notebook and include the following code:
 ```python

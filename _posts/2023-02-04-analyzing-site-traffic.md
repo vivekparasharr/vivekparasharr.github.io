@@ -2,7 +2,7 @@
 layout: post
 title: "Analyzing Website Traffic Using Google Analytics and AWS"
 categories: web analytics, website analytics, google analytics, aws, ec2, python, plotly
-permalink: /strategy/customer-segmentation
+permalink: /strategy/web-analytics
 ---
 Web analytics refers to the collection, measurement, analysis, and reporting of web data to understand and optimize web usage. It involves gathering data on user behavior on websites, such as pageviews, time spent on a page, clickthrough rates, and conversion rates, and analyzing this data to gain insights into user behavior and website performance. These insights can be used to make informed decisions about website design, content, and marketing strategies to improve user engagement, increase traffic, and drive conversions. Web analytics tools, such as Google Analytics, provide a range of metrics and reports to track and analyze website performance. In this blog entry I will explore how to do web analytics using a combinaiton of Google Analytics and AWS (Amazon Web Services)
 

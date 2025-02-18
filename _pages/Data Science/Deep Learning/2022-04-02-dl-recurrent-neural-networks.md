@@ -7,7 +7,7 @@ tags:
     - rnn
 thumbnail: "/assets/img/placeholder.jpg"
 ---
-## What are Recurrent Neural Networks (RNNs)?
+# What are Recurrent Neural Networks (RNNs)?
 Recurrent Neural Networks, or RNNs, are a type of artificial neural network designed to process sequential data, such as time-series or natural language. While traditional neural networks process input data independently of one another, RNNs allow for the input of past data to influence current output. This is done by introducing a loop within the neural network, allowing previous output to be fed back into the input layer.
 
 The ability to process sequential data makes RNNs particularly useful for a variety of tasks. For example, in natural language processing, RNNs can be used to generate text or to predict the next word in a sentence. In speech recognition, RNNs can be used to transcribe audio to text. In financial modeling, RNNs can be used to predict stock prices based on historical data.
@@ -18,10 +18,10 @@ One common issue with RNNs is that the hidden state can become "saturated" and l
 
 ---
 
-## Implementation
+# Implementation
 Implementing an RNN in Python can be done using several popular deep learning frameworks, such as TensorFlow, Keras, and PyTorch. These frameworks provide high-level APIs that make it easier to build and train complex neural networks. With the popularity of RNNs increasing, they have become a powerful tool for a variety of applications across many different fields.
 
-### Using TensorFlow library
+## Using TensorFlow library
 Here is an example of how to implement a simple RNN using TensorFlow:
 
 ```python
@@ -76,7 +76,7 @@ This is a simple RNN that is trained on a sin wave and is able to predict the ne
 
 ---
 
-### Using keras library
+## Using keras library
 Here's an example code for implementing RNN using Keras in Python:
 
 ```python
@@ -107,7 +107,7 @@ In this example, we define a simple RNN model using Keras to predict the next va
 
 ---
 
-### Using PyTorch library
+## Using PyTorch library
 Here is an example of implementing a Recurrent Neural Network (RNN) in Python using PyTorch:
 
 ```python

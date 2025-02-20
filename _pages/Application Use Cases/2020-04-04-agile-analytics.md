@@ -9,7 +9,7 @@ thumbnail: "/assets/img/images-for-pages/application-use-cases/agile-analytics.p
 ---
 Scrum is an agile framework for software development, but it can also be applied to other types of projects, including analytics. Scrum emphasizes collaboration, continuous improvement, and flexibility. It is designed to help teams work together to deliver high-quality results quickly and efficiently. In this article, we'll discuss how to use Scrum in analytics teams.
 
-![Agile Analytics](/assets/img/images-for-pages/application-use-cases/agile-methodology.png){:class="img-responsive"}
+![Agile Analytics](/assets/img/images-for-pages/application-use-cases/agile-analytics.png){:class="img-responsive"}
 
 # Waterfall Methodology
 Traditionally analytics teams have followed a waterfall methodology to project management. This involves dividing the project into sequential steps involving *requirement gathering, development, testing, delivery, and maintenance*. The benefits of this approach are that budgeting is easy, however on the flip side there is less to no contact with the customer after the requirement gathering stage up until delivery. 

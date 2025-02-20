@@ -6,10 +6,14 @@ tags:
     - azure
     - devops
     - kubernetes
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/cloud-and-big-data/azure-basic-arch.png"
 ---
 # Introduction
-Azure is a cloud computing platform and set of services offered by Microsoft. It provides a wide range of services such as virtual machines, databases, storage, and networking, among others, that users can access and use to build, deploy, and manage their applications and services. Azure also offers a variety of tools and services to help users with tasks such as data analytics, artificial intelligence, and machine learning. Azure provides a pay-as-you-go pricing model, allowing users to only pay for the services they use.
+Azure is a cloud computing platform and set of services offered by Microsoft. It provides a wide range of services such as virtual machines, databases, storage, and networking, among others, that users can access and use to build, deploy, and manage their applications and services. 
+
+![Azure Basic Architecture](/assets/img/images-for-pages/cloud-and-big-data/azure-basic-arch.png){:class="img-responsive"}
+
+Azure also offers a variety of tools and services to help users with tasks such as data analytics, artificial intelligence, and machine learning. Azure provides a pay-as-you-go pricing model, allowing users to only pay for the services they use.
 
 ---
 

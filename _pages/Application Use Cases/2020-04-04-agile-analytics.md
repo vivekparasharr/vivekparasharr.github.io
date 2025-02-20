@@ -5,7 +5,7 @@ tags:
     - agile
     - scrum
     - project-management
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/application-use-cases/agile-analytics.png"
 ---
 Scrum is an agile framework for software development, but it can also be applied to other types of projects, including analytics. Scrum emphasizes collaboration, continuous improvement, and flexibility. It is designed to help teams work together to deliver high-quality results quickly and efficiently. In this article, we'll discuss how to use Scrum in analytics teams.
 

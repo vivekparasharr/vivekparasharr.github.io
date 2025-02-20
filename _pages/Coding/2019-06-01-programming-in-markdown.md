@@ -7,7 +7,7 @@ tags:
     - markdown
 thumbnail: "/assets/img/placeholder.jpg"
 ---
-# Quick Introduction to Markdown
+# Quick Introduction
 Markdown is a lightweight markup language that is used to format text in a simple and consistent way. It was first created in 2004 by John Gruber and Aaron Swartz as a way to write content for the web that was easy to read and write.
 
 Markdown is designed to be easy to learn and use. It uses simple syntax to format text, making it easy to create headings, lists, links, and other formatting elements. Markdown can be used in a wide variety of contexts, including writing blog posts, creating documentation, and writing code comments.

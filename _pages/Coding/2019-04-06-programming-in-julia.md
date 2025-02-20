@@ -7,7 +7,7 @@ tags:
     - julia
 thumbnail: "/assets/img/placeholder.jpg"
 ---
-# Quick Introduction to Julia
+# Quick Introduction
 Julia is a high-level, high-performance programming language that was created in 2012 by a team of computer scientists led by Jeff Bezanson, Stefan Karpinski, and Viral Shah. Julia was designed to address the limitations of traditional scientific computing languages, such as MATLAB, Python, and R, while still retaining their ease of use and flexibility.
 
 One of the key features of Julia is its performance. Julia is designed to be fast, with execution speeds comparable to those of compiled languages such as C and Fortran. This is achieved through a combination of just-in-time (JIT) compilation, which compiles code on the fly as it is executed, and type inference, which allows Julia to determine the data types of variables at runtime.

@@ -7,7 +7,7 @@ tags:
     - ruby
 thumbnail: "/assets/img/placeholder.jpg"
 ---
-# Quick Introduction to Ruby
+# Quick Introduction
 Ruby is a high-level, interpreted programming language that was created in the mid-1990s by Yukihiro "Matz" Matsumoto. It is a general-purpose language that is designed to be easy to use and read, with syntax that is similar to natural language. Ruby is often used for web development, as well as for building command-line utilities, desktop applications, and other types of software.
 
 One of the key features of Ruby is its emphasis on programmer productivity and ease of use. Ruby's syntax is designed to be intuitive and easy to read, making it accessible to both beginner and experienced programmers. Ruby also includes a number of built-in features and libraries that make it easy to accomplish common programming tasks, such as working with strings, arrays, and hashes.

@@ -6,6 +6,7 @@ tags:
     - website-analytics
     - google-analytics
     - aws
+thumbnail: "/assets/img/images-for-pages/application-use-cases/web-analytics-aws.png"
 ---
 # What is Web Analytics?
 Web analytics refers to the collection, measurement, analysis, and reporting of web data to understand and optimize web usage. It involves gathering data on user behavior on websites, such as pageviews, time spent on a page, clickthrough rates, and conversion rates, and analyzing this data to gain insights into user behavior and website performance. These insights can be used to make informed decisions about website design, content, and marketing strategies to improve user engagement, increase traffic, and drive conversions. Web analytics tools, such as Google Analytics, provide a range of metrics and reports to track and analyze website performance. In this blog entry I will explore how to do web analytics using a combinaiton of Google Analytics and AWS (Amazon Web Services). 
@@ -18,6 +19,8 @@ It is a web analytics service offered by Google that tracks and reports website 
 
 ## AWS (Amazon Web Services)
 It is a cloud computing platform that offers a wide range of services, including compute power, storage, databases, analytics, machine learning, security, and more. AWS allows businesses to operate their IT infrastructure in the cloud, providing them with flexibility, scalability, and reliability. AWS provides a pay-as-you-go pricing model, which allows businesses to pay only for the services they use, without any upfront costs or long-term commitments. AWS is one of the most popular cloud computing platforms, with millions of active customers worldwide.
+
+![Web Analytics using AWS](/assets/img/images-for-pages/application-use-cases/web-analytics-aws.png){:class="img-responsive"}
 
 # High level outline of the process 
 To analyze website traffic using Google Analytics and AWS, you can follow these high-level steps:

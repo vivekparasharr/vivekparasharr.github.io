@@ -6,7 +6,7 @@ tags:
     - customer-journey
     - customer-journey-analytics
     - customer-lifecycle
-thumbnail: "/assets/img/customer-journey/cusotmer-journey-thumb.webp"
+thumbnail: "/assets/img/customer-journey/cusotmer-journey.png"
 ---
 How important is it to align your analytics efforts with the customer lifecycle? Imagine you are a credit card department within the consumer banking branch of large bank. You are sending periodic mailers offering credit cards to your customers. Before sending these mail offers you do a minimum screening in a way that you only offer these to customers that have been with the bank for at-least 2 years and have maintained a balance above a certain threshold. However, you notice that the acceptance of your mail offers remains low even after a few campaigns. Why do you think is that?
 

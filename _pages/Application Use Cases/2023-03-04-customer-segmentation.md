@@ -5,12 +5,12 @@ tags:
     - strategy
     - customer-segmentation
     - customer-lifecycle
-thumbnail: "/assets/img/customer-journey/customer-segmentation.png"
+thumbnail: "/assets/img/images-for-pages/application-use-cases/customer-segmentation.png"
 ---
 # What is Customer Segmentation?
 Customer segmentation is a critical component of marketing that helps businesses understand their customers better and tailor their marketing strategies to their specific needs. One popular technique for customer segmentation is k-means clustering, which groups customers based on their similarities in various attributes. In this article, we'll discuss how you can use k-means clustering to segment your customers and extract valuable insights from your data.
 
-![customer-segmentation](/assets/img/customer-journey/customer-segmentation.png){:class="img-responsive"}
+![customer-segmentation](/assets/img/images-for-pages/application-use-cases/customer-segmentation.png){:class="img-responsive"}
 
 ## Step 1: Gather and Prepare Your Data
 The first step in customer segmentation using k-means clustering is to gather your data. This includes all relevant customer information, such as demographic data, purchase history, and behavioral data. Once you have your data, you'll need to clean and prepare it for clustering. This may involve normalizing your data, removing outliers, and transforming your data into a form that can be used in k-means clustering.

@@ -7,13 +7,15 @@ tags:
     - variance
     - anova
     - python
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/anova.jpg"
 ---
 ANOVA (Analysis of Variance) is a statistical method used to analyze and test the differences between the means of three or more groups. ANOVA compares the variation within groups to the variation between groups to determine whether the differences in means are statistically significant or just due to random chance.
 
 The basic idea behind ANOVA is that if the variation between groups is significantly greater than the variation within groups, then there is evidence to suggest that the means of the groups are different. ANOVA allows us to test the null hypothesis that all of the group means are equal against the alternative hypothesis that at least one group mean is different from the others.
 
 ANOVA is used in a wide range of applications, including biology, social sciences, economics, and engineering. It is often used in experimental research to test the effects of different treatments or interventions on a particular outcome.
+
+![ANOVA](/assets/img/images-for-pages/coding-and-maths/anova.jpg){:class="img-responsive"}
 
 There are several types of ANOVA, including one-way ANOVA, which compares the means of three or more groups that are unrelated, and repeated measures ANOVA, which compares the means of three or more groups that are related (i.e., the same group is measured under different conditions). ANOVA can be performed using software such as R, Python, or SPSS. In this article, we will be using Python. 
 

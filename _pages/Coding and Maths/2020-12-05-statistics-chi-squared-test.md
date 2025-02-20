@@ -10,7 +10,7 @@ thumbnail: "/assets/img/images-for-pages/coding-and-maths/chi-square.jpg"
 ---
 The chi-square test is a statistical hypothesis test that is used to determine whether there is a significant association between two categorical variables. It is widely used in data analysis, particularly in fields such as social sciences, marketing, and biology, to examine relationships between categorical data. In this article, we will discuss the chi-square test, its applications, and how to perform it using Python.
 
-![GCP Basic Architecture](/assets/img/images-for-pages/coding-and-maths/chi-square.jpg){:class="img-responsive"}
+![Chi-Square Distribution](/assets/img/images-for-pages/coding-and-maths/chi-square.jpg){:class="img-responsive"}
 
 # Understanding the Chi-Square Test
 The chi-square test is a non-parametric test that compares the observed frequencies of categorical data with the expected frequencies. The test is based on the chi-square statistic, which is calculated by summing the squared difference between the observed and expected frequencies, divided by the expected frequency, for each category.

@@ -9,7 +9,7 @@ tags:
     - tensorflow
     - keras
     - pytorch
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/artificial-neural-networks.png"
 ---
 ## What are Artificial Neural Networks (ANNs)? 
 Artificial Neural Networks (ANNs) are a type of machine learning model that are designed to simulate the function of a biological neural network. ANNs are composed of interconnected nodes or artificial neurons that process and transmit information to one another. The structure of an ANN consists of an input layer, one or more hidden layers, and an output layer.
@@ -19,6 +19,8 @@ The input layer is where data is introduced to the network, while the output lay
 ANNs can be used for a variety of machine learning tasks, including regression, classification, and clustering. For regression, ANNs can be trained to model the relationship between input variables and output variables. In classification, ANNs can be trained to classify input data into different categories. In clustering, ANNs can be used to group similar data points together.
 
 The training process of an ANN involves adjusting the weights of the connections between the neurons to minimize the difference between the predicted output and the actual output. This process involves passing data through the network multiple times and updating the weights based on the difference between the predicted output and the actual output. The goal is to find a set of weights that minimize the error and optimize the performance of the network.
+
+![Artificial Neural Networks](/assets/img/images-for-pages/artificial-intelligence/artificial-neural-networks.png){:class="img-responsive"}
 
 ---
 

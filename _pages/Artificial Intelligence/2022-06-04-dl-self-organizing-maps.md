@@ -5,14 +5,16 @@ tags:
     - deep-learning
     - self-organizing-maps
     - som
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/self-organizing-maps.png"
 ---
 ## What are Self Organizing Maps (SOMs)? 
 SOM stands for Self-Organizing Map, which is a type of artificial neural network that is used for unsupervised learning and dimensionality reduction. SOMs are inspired by the structure and function of the human brain, and they can be used to visualize and explore complex, high-dimensional data in a two-dimensional map or grid.
 
 SOMs consist of an input layer, a layer of computational nodes, and an output layer. The input layer receives the data, and the computational nodes perform computations on the data. The output layer is the two-dimensional grid of nodes that represents the input data. During training, the nodes in the output layer are adjusted to represent the input data in a way that preserves the topological relationships between the input data points.
 
-SOMs have a wide range of applications, including image processing, data visualization, data clustering, feature extraction, and anomaly detection. They are particularly useful for visualizing and exploring large, complex datasets, as they can reveal patterns and relationships that might not be apparent from the raw data.
+SOMs have a wide range of applications, including image processing, data visualization, data clustering, feature extraction, and anomaly detection. They are particularly useful for clustering and mapping (or dimensionality reduction) techniques to map multidimensional data onto lower-dimensional which allows people to reduce complex problems for easy interpretation. 
+
+![Self Organizing Maps](/assets/img/images-for-pages/artificial-intelligence/self-organizing-maps.png){:class="img-responsive"}
 
 ---
 

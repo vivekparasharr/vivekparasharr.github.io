@@ -5,7 +5,7 @@ tags:
     - deep-learning
     - convolutional-neural-networks
     - cnn
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/convolutional-neural-networks.png"
 ---
 ## What are Convolutional Neural Networks (CNNs)? 
 Convolutional Neural Networks (CNNs) are a type of deep neural network that are commonly used in computer vision tasks such as image classification, object detection, and segmentation. They are able to automatically learn and extract features from images, allowing them to identify patterns and structures in complex visual data.
@@ -15,6 +15,8 @@ The key component of a CNN is the convolutional layer, which performs a series o
 In addition to the convolutional layer, a typical CNN architecture also includes pooling layers, which reduce the spatial resolution of the feature maps while retaining their most important information, and fully connected layers, which combine the extracted features into a final output.
 
 One of the major advantages of CNNs is their ability to learn hierarchical representations of images, where lower-level features such as edges and corners are combined to form higher-level features such as shapes and objects. This makes them highly effective for image classification and object detection tasks, where they can achieve state-of-the-art performance on benchmark datasets.
+
+![Convolutional Neural Networks](/assets/img/images-for-pages/artificial-intelligence/convolutional-neural-networks.png){:class="img-responsive"}
 
 ---
 

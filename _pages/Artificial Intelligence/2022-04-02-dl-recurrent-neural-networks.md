@@ -10,13 +10,13 @@ thumbnail: "/assets/img/images-for-pages/artificial-intelligence/recurrant-neura
 # What are Recurrent Neural Networks (RNNs)?
 Recurrent Neural Networks, or RNNs, are a type of artificial neural network designed to process sequential data, such as time-series or natural language. While traditional neural networks process input data independently of one another, RNNs allow for the input of past data to influence current output. This is done by introducing a loop within the neural network, allowing previous output to be fed back into the input layer.
 
+![Recurrent Neural Networks](/assets/img/images-for-pages/artificial-intelligence/recurrant-neural-networks.png){:class="img-responsive"}
+
 The ability to process sequential data makes RNNs particularly useful for a variety of tasks. For example, in natural language processing, RNNs can be used to generate text or to predict the next word in a sentence. In speech recognition, RNNs can be used to transcribe audio to text. In financial modeling, RNNs can be used to predict stock prices based on historical data.
 
 The core of an RNN is its hidden state, which is a vector that is updated at each time step. The state vector summarizes information from previous inputs, and is used to predict the output at the current time step. The state vector is updated using a set of weights that are learned during training.
 
 One common issue with RNNs is that the hidden state can become "saturated" and lose information from previous time steps. To address this, several variations of RNNs have been developed, including Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRUs), which can better maintain the memory of the network over longer periods of time.
-
-![Recurrent Neural Networks](/assets/img/images-for-pages/artificial-intelligence/recurrant-neural-networks.png){:class="img-responsive"}
 
 ---
 

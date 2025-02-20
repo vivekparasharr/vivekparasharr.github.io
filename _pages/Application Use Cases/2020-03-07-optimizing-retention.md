@@ -7,11 +7,11 @@ tags:
     - optimizing-retention
     - churn
     - reducing-churn
-thumbnail: "/assets/img/customer-journey/optimizing-retention.png"
+thumbnail: "/assets/img/images-for-pages/application-use-cases/optimizing-retention.png"
 ---
 Acquiring a new customer in the financial services sector can be as much as five to 25 times more expensive than retaining an existing one. Therefore, prevention of costumer churn is of paramount importance for the business.  Advances in the area of Machine Learning, availability of large amount of customer data, and more sophisticated methods for predicting churn can help devise data backed strategy to prevent customers from churning.
 
-![optimizing-retention](/assets/img/customer-journey/optimizing-retention.png){:class="img-responsive"}
+![Optimizing Retention - A strategy to enhance customer loyalty and reduce churn](/assets/img/images-for-pages/application-use-cases/optimizing-retention.png){:class="img-responsive"}
 
 Imagine that you are a large bank facing a challenge in this area. You are witnessing an increasing amount of customers churn, which has starting hitting your profit margin. You establish a team of analysts to review your current customer development and retention program. The analysts quickly uncover that the current program is a patchwork of mostly reactive strategies applied in various silos within the bank. However, the upside is that the bank has already collected rich data on customer interactions that could possibly help get a deeper understanding of reasons for churn. 
 

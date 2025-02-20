@@ -6,7 +6,7 @@ tags:
     - coding
     - python
     - packaging-code
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/packaging-code.jpeg"
 ---
 Packaging in Python is the process of creating distributable packages of code that can be easily installed and used by other developers. These packages can contain modules, functions, classes, and other components that can be shared and reused across different projects.
 

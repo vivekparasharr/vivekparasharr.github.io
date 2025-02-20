@@ -1,18 +1,18 @@
 ---
-title: "Customer Journey Analytics"
+title: "Customer Lifecycle Analytics"
 date: "2020-02-01"
 tags:
     - strategy
-    - customer-journey
-    - customer-journey-analytics
+    - customer-lifecycle-analytics
     - customer-lifecycle
-thumbnail: "/assets/img/customer-journey/customer-journey.png"
+    - customer-journey
+thumbnail: "/assets/img/images-for-pages/application-use-cases/customer-lifecycle.png"
 ---
 How important is it to align your analytics efforts with the customer lifecycle? Imagine you are a credit card department within the consumer banking branch of large bank. You are sending periodic mailers offering credit cards to your customers. Before sending these mail offers you do a minimum screening in a way that you only offer these to customers that have been with the bank for at-least 2 years and have maintained a balance above a certain threshold. However, you notice that the acceptance of your mail offers remains low even after a few campaigns. Why do you think is that?
 
 The answer lies in a simple concept, but one that is often overlook by analytics teams. Are you trying to identify which life stage the customer is in? Are you trying to synchronize your sales effort with the customer lifecycle? What is customer lifecycle you ask?
 
-![customer-lifecycle](/assets/img/customer-journey/customer-journey.png){:class="img-responsive"}
+![Customer Lifecycle Diagram - A visual representation of different stages in the customer journey](/assets/img/images-for-pages/application-use-cases/customer-lifecycle.png){:class="img-responsive"}
 
 Customer lifecycle can be understood as a framework to track the relationship between a customer and a bank. It starts off with the Acquisition stage where your primary focus is to figure out ways to identify and bring on-board customers with which a mutually beneficial relationship can be created. After this comes the Development stage, where the customer is encouraged to expand his portfolio with your products through cross-sell efforts, etc. Finally, comes the Retention stage where the customer has been with you for more than a decade, so you try to enhance the relationship and monitor customer satisfaction so that the customer can act as a good ambassador for you. 
 

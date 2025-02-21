@@ -7,11 +7,11 @@ tags:
     - normal-distribution
     - gamma-distribution
     - exponential-distribution
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/distributions/2021-04-09.png"
 ---
 In this article we will cover some distributions that I have found useful while analysing data. I have split them based on whether they are for a continuous or a discrete random variable. First I give a small theoretical introduction about the distribution, its probability density function, and then how to use python to represent it graphically.  
 
-![combined](/assets/img/mathematics/distributions/2021-04-09.png){:class="img-responsive"}
+![data-distributions](/assets/img/images-for-pages/coding-and-maths/distributions/data-distributions.png){:class="img-responsive"}
 
 Continuous Distributions:
 - Uniform distribution
@@ -42,6 +42,8 @@ import plotly.express as px
 import seaborn as sns
 ```
 
+![combined](/assets/img/images-for-pages/coding-and-maths/distributions/2021-04-09.png){:class="img-responsive"}
+
 ### Continuous Distributions
 
 #### Uniform distribution
@@ -55,7 +57,7 @@ rv_array = spss.uniform.rvs(size=10000, loc = 10, scale=20)
 
 Now we can plot this using the plotly library or the seaborn library. Infact seaborn has a couple of different function, namely the distplot and the histplot, both of which can be used to visually view the unoform data. Lets see the examples one by one:
 
-![uniform](/assets/img/mathematics/distributions/uniform.png){:class="img-responsive"}
+![uniform](/assets/img/images-for-pages/coding-and-maths/distributions/uniform.png){:class="img-responsive"}
 
 We can directly plot the data from the array:
 ```python
@@ -63,7 +65,7 @@ px.histogram(rv_array) # plotted using plotly express
 sns.histplot(rv_array, kde=True) # plotted using seaborn
 ```
 
-![uniform-labels](/assets/img/mathematics/distributions/uniform-labels.png){:class="img-responsive"}
+![uniform-labels](/assets/img/images-for-pages/coding-and-maths/distributions/uniform-labels.png){:class="img-responsive"}
 
 Or we can convert array into a dataframe and then plot the data frame:
 ```python
@@ -79,7 +81,7 @@ This distribution has a bell-shaped density curve described by its mean and stan
 
 Lets plot it using seaborn:
 
-![normal](/assets/img/mathematics/distributions/normal.png){:class="img-responsive"}
+![normal](/assets/img/images-for-pages/coding-and-maths/distributions/normal.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.norm.rvs(size=10000,loc=10,scale=100)  # size specifies number of random variates, loc corresponds to mean, scale corresponds to standard deviation
@@ -88,7 +90,7 @@ sns.histplot(rv_array, kde=True)
 
 We can add x and y labels, change the number of bins, color of bars, etc. With distplot we can supply additional arguments for adjusting width of bars, transparency, etc.
 
-![normal-colored](/assets/img/mathematics/distributions/normal-colored.png){:class="img-responsive"}
+![normal-colored](/assets/img/images-for-pages/coding-and-maths/distributions/normal-colored.png){:class="img-responsive"}
 
 ```python
 ax = sns.distplot(rv_array, bins=100, kde=True, color='cornflowerblue', hist_kws={"linewidth": 15,'alpha':1})
@@ -99,7 +101,7 @@ Is a special case of the normal distribution where mean = 0 and sd = 1
 
 Lets plot it using seaborn:
 
-![standard-normal](/assets/img/mathematics/distributions/standard-normal.png){:class="img-responsive"}
+![standard-normal](/assets/img/images-for-pages/coding-and-maths/distributions/standard-normal.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.norm.rvs(size=10000,loc=0,scale=1) 
@@ -111,7 +113,7 @@ Exponential, chi-squared, erlang distributions are special cases of the gamma di
 
 Lets plot it using seaborn:
 
-![gamma](/assets/img/mathematics/distributions/gamma.png){:class="img-responsive"}
+![gamma](/assets/img/images-for-pages/coding-and-maths/distributions/gamma.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.gamma.rvs(a=5, size=10000) # size specifies number of random variates, a is the shape parameter
@@ -127,7 +129,7 @@ Exponential distribution describes the time between events in a Poisson point pr
 
 Lets plot it using seaborn:
 
-![exponential](/assets/img/mathematics/distributions/exponential.png){:class="img-responsive"}
+![exponential](/assets/img/images-for-pages/coding-and-maths/distributions/exponential.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.expon.rvs(scale=1,loc=0,size=1000) # size specifies number of random variates, loc corresponds to mean, scale corresponds to standard deviation
@@ -146,7 +148,7 @@ p=probability of success in each trial
 
 Lets plot it using seaborn:
 
-![binomial](/assets/img/mathematics/distributions/binomial.png){:class="img-responsive"}
+![binomial](/assets/img/images-for-pages/coding-and-maths/distributions/binomial.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.binom.rvs(n=10,p=0.8,size=10000) # n = number of trials, p = probability of success, size = number of times to repeat the trials
@@ -164,7 +166,7 @@ Poisson distribution is a limiting case of a binomial distribution under the fol
 
 Lets plot it using seaborn:
 
-![poisson](/assets/img/mathematics/distributions/poisson.png){:class="img-responsive"}
+![poisson](/assets/img/images-for-pages/coding-and-maths/distributions/poisson.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.poisson.rvs(mu=3, size=10000) # size specifies number of random variates, loc corresponds to mean, scale corresponds to standard deviation
@@ -179,7 +181,7 @@ Bernoulli distribution is a special case of the binomial distribution where a si
 
 Lets plot it using seaborn:
 
-![bernoulli](/assets/img/mathematics/distributions/bernoulli.png){:class="img-responsive"}
+![bernoulli](/assets/img/images-for-pages/coding-and-maths/distributions/bernoulli.png){:class="img-responsive"}
 
 ```python
 rv_array = spss.bernoulli.rvs(size=10000,p=0.6) # p = probability of success, size = number of times to repeat the trial

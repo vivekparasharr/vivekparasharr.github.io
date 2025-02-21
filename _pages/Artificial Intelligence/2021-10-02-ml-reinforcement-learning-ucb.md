@@ -5,7 +5,7 @@ tags:
     - machine-learning
     - reinforcement-learning
     - openai
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/reinforcement-learning.png"
 ---
 Reinforcement learning is a branch of machine learning that involves training agents to make a sequence of decisions in an environment to maximize a reward function. The agent receives feedback in the form of a reward signal for every action it takes, and its goal is to learn a policy that maximizes the long-term expected reward. In this article, we'll discuss how to implement reinforcement learning in Python.
 
@@ -16,8 +16,9 @@ Reinforcement learning can be used in various ways in the financial services ind
 - Risk management: Reinforcement learning can be used to develop risk models that can predict and manage the risk of various financial instruments, such as derivatives.
 - Credit scoring: Reinforcement learning can be used to create credit scoring models that can learn from borrower behavior and other factors to predict creditworthiness and default risk.
 
----
+![Reinforcement learning flow](/assets/img/images-for-pages/artificial-intelligence/reinforcement-learning.png){:class="img-responsive"}
 
+# Implementation
 There are several popular Python libraries for implementing reinforcement learning, such as TensorFlow, Keras, PyTorch, and OpenAI Gym. In this tutorial, we'll use OpenAI Gym to create a simple reinforcement learning environment.
 
 OpenAI Gym provides a collection of pre-built environments for reinforcement learning, such as CartPole and MountainCar. These environments provide a simple interface for creating agents that learn to interact with the environment and maximize the reward.

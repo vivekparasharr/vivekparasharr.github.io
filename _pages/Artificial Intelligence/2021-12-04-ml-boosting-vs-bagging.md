@@ -24,6 +24,8 @@ While boosting and bagging have similar goals, they differ in their approach and
 - Model Selection: In bagging, the final prediction is the average of all models in the ensemble, while in boosting, the final prediction is a weighted average of all models in the ensemble.
 - Performance: Bagging can reduce the variance of a model and improve its stability, but it may not improve its accuracy. Boosting can improve the accuracy of a model, but it may increase its variance and overfitting.
 
+![Boosting vs Bagging](/assets/img/images-for-pages/artificial-intelligence/boosting-vs-bagging.png){:class="img-responsive"}
+
 ## Boosting vs Bagging Cimparison Implementation
 
 ```python

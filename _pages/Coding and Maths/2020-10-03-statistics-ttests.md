@@ -5,7 +5,7 @@ tags:
     - statistics
     - hypothesis-testing
     - t-test
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/ttest-select.png"
 ---
 T-tests are a class of statistical tests used to determine whether there is a significant difference between the means of two groups of data. T-tests are often used to compare the means of a sample to the population mean, or to compare the means of two independent samples or two paired samples.
 
@@ -14,6 +14,7 @@ Following are the most common types of t-tests are the one-sample t-test that we
 - Independent samples t-test: This test is used to compare the means of two independent groups.
 - Paired samples t-test: This test is used to compare the means of two dependent (paired) groups.
 
+![T-test selection](/assets/img/images-for-pages/coding-and-maths/ttest-select.png){:class="img-responsive"}
 
 # T-tests have several assumptions that need to be met in order for the test to be valid. The most important assumptions are:
 - Normality: The data should follow a normal distribution. This means that the sample means should be normally distributed.

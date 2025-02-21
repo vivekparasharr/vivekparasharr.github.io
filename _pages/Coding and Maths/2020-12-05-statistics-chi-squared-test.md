@@ -6,7 +6,7 @@ tags:
     - hypothesis-testing
     - chi-square
     - python
-thumbnail: "/assets/img/images-for-pages/coding-and-maths/chi-square.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/chi-square-test-process.png"
 ---
 The chi-square test is a statistical hypothesis test that is used to determine whether there is a significant association between two categorical variables. It is widely used in data analysis, particularly in fields such as social sciences, marketing, and biology, to examine relationships between categorical data. In this article, we will discuss the chi-square test, its applications, and how to perform it using Python.
 
@@ -18,6 +18,8 @@ The chi-square test is a non-parametric test that compares the observed frequenc
 The chi-square test is used to test the null hypothesis that there is no significant association between the two variables. If the calculated chi-square value is greater than the critical value, we can reject the null hypothesis and conclude that there is a significant association between the variables.
 
 There are two types of chi-square tests: the chi-square goodness of fit test and the chi-square test of independence. The goodness of fit test is used to test whether the observed data follows a particular distribution, while the test of independence is used to test whether there is a significant association between two categorical variables.
+
+![Chi-Square test process](/assets/img/images-for-pages/coding-and-maths/chi-square-test-process.png){:class="img-responsive"}
 
 # Applications of the Chi-Square Test
 The chi-square test is widely used in research and data analysis, with a range of applications across various fields. Some common applications include:

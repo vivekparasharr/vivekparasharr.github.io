@@ -6,9 +6,11 @@ tags:
     - hypothesis
     - hypothesis-testing
     - t-test
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/hypothesis-testing-process.png"
 ---
 Hypothesis testing is a statistical method used to determine whether a hypothesis about a population parameter is supported by the data. It is a powerful tool for making decisions based on data, and is widely used in many fields including medicine, social sciences, and business.
+
+![Hypothesis testing process](/assets/img/images-for-pages/coding-and-maths/hypothesis-testing-process.png){:class="img-responsive"}
 
 # The basic steps in hypothesis testing are as follows:
 
@@ -20,6 +22,7 @@ Hypothesis testing is a statistical method used to determine whether a hypothesi
 
 Hypothesis testing is a powerful tool for making decisions based on data, but it is important to use it correctly and to interpret the results carefully. When conducting a hypothesis test, it is important to ensure that the assumptions of the test are met, and to choose the appropriate test based on the type of data being analyzed. By following the steps outlined above and taking care to interpret the results correctly, hypothesis testing can be a valuable tool for making evidence-based decisions.
 
+![Hypothesis test selection](/assets/img/images-for-pages/coding-and-maths/hypothesis-testing-select-test){:class="img-responsive"}
 
 # There are many different types of hypothesis tests, each suited to different types of data and research questions. Here are a few of the most common types:
 

@@ -22,8 +22,8 @@ There are many Python packages available for plotting, each with its own strengt
 - Altair: Altair is a declarative visualization library that allows you to create complex visualizations with minimal code. It uses a concise syntax that is based on the Vega-Lite visualization grammar.
 
 
-Here is a snapshot of the visualizations I created on a dataset from Water Point Data Exchange. 
 ![charts-combined](/assets/img/images-for-pages/reflections/tidytuesday/20210504.jpeg){:class="img-responsive"}
+*Here is a snapshot of the visualizations I created on a dataset from Water Point Data Exchange.* 
 
 ---
 
@@ -36,8 +36,8 @@ While Python offers a wide variety of plotting libraries, there are still some c
 - Accessibility: When creating plots, it is important to consider accessibility for people with visual impairments. This can involve using high-contrast colors, providing alternative text descriptions, and ensuring that the plot is readable when printed in black and white.
 - Reproducibility: If you are creating plots for research purposes, it is important to ensure that your plots are reproducible. This involves documenting the code and data used to create the plot, so that others can recreate the same plot in the future.
 
-Here is a snapshot of the visualizations I created on a dataset that consists of tv shows and movies available on Netflix as of 2019.
 ![charts-combined](/assets/img/images-for-pages/reflections/tidytuesday/20210420.jpeg){:class="img-responsive"}
+*Here is a snapshot of the visualizations I created on a dataset that consists of tv shows and movies available on Netflix as of 2019.*
 
 ---
 
@@ -51,8 +51,8 @@ Choosing the right kind of plot depends on several factors, including the type o
 - Heatmaps: Heatmaps are useful for showing the relationship between two variables using color. They work well for data that is categorical or continuous and can show patterns or clusters in the data.
 - Choropleth maps: Choropleth maps are useful for showing regional differences in data. They work well for data that is geographic in nature, such as population density or election results.
 
-Here is a snapshot of the visualizations I created on a dataset detailing events across all 40 seasons of the US Survivor, including castaway information, vote history, immunity and reward challenge winners and jury votes.
 ![charts-combined](/assets/img/images-for-pages/reflections/tidytuesday/20210601.jpeg){:class="img-responsive"}
+*Here is a snapshot of the visualizations I created on a dataset detailing events across all 40 seasons of the US Survivor, including castaway information, vote history, immunity and reward challenge winners and jury votes.*
 
 ---
 
@@ -64,8 +64,8 @@ Here are some examples of plots that are specific to a particular Python package
 - Heatmaps: Heatmaps are a type of plot that show the relationship between two variables using color. They can be easily built using the seaborn package, which provides tools for statistical visualization in Python.
 - Treemaps: Treemaps are a type of plot that show hierarchical data using nested rectangles. They can be easily built using the squarify package, which provides tools for creating treemaps in Python.
 
-Here is a snapshot of the visualizations I created on a dataset detailing salaries and other information of 24,000+ survey participants. 
 ![charts-combined](/assets/img/images-for-pages/reflections/tidytuesday/20210518.jpeg){:class="img-responsive"}
+*Here is a snapshot of the visualizations I created on a dataset detailing salaries and other information of 24,000+ survey participants.* 
 
 ---
 
@@ -77,8 +77,8 @@ Interacting with other data visualization folks can offer several benefits, incl
 - Finding inspiration: Sometimes, seeing how other professionals have approached data visualization can provide inspiration for your own work. By interacting with other professionals, you can see a variety of different approaches and ideas, which can help you to create more interesting and innovative visualizations.
 - Building your network: Interacting with other data visualization professionals can help you to build your network and connect with others in your field. This can lead to new opportunities for collaboration and career advancement.
 
-Here is a snapshot of the visualizations I created on a dataset about homeless shelters across Toronto, Canada. 
 ![charts-combined](/assets/img/images-for-pages/reflections/tidytuesday/20201201.jpeg){:class="img-responsive"}
+*Here is a snapshot of the visualizations I created on a dataset about homeless shelters across Toronto, Canada.*
 
 
 Overall, interacting with other data visualization professionals can help you to improve your skills, create more effective visualizations, and build your network. Whether through online communities, meetups, or conferences, there are many opportunities to connect with other professionals and benefit from their insights and expertise.

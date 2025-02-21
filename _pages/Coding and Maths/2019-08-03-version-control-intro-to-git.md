@@ -6,11 +6,11 @@ tags:
     - coding
     - version-control
     - git
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/git/git.jpg"
 ---
 A three part article series on version control using Git and GitHub. This is the first article in the series in which I will give a very brief introduction to Git. This will allow most readers to understand enough to utilize it for version control during development. 
 
----
+![Git Window](/assets/img/images-for-pages/coding-and-maths/git/git-window.jpg){:class="img-responsive"}
 
 # What is Git?
 Git is a popular version control system that allows developers to manage and track changes to their code over time. It's an essential tool for software development teams, as it helps to ensure that changes to code are properly tracked and documented, and makes it easier for developers to collaborate and work together. Here's an overview of what Git is and how it works.
@@ -26,7 +26,6 @@ Git also allows developers to create branches, which are essentially separate ve
 To use Git for version control, developers typically create a new repository on a Git hosting service such as GitHub, GitLab, or Bitbucket. They then clone the repository onto their local machine and begin making changes to the code. To commit changes, developers use Git commands such as "git add" to add changed files to the commit, and "git commit" to create a new commit with a commit message that describes the changes.
 
 To collaborate with other developers, developers can push their changes to the remote repository and create "pull requests" that allow other developers to review the changes and provide feedback. Once changes have been reviewed and approved, they can be merged back into the main branch.
-
 
 # Basic terminal commands
 - Terminal (for Unix or Mac) or Command Prompt for Windows allows us to type Git commands and manage project repositories. In this section we will be focusing on terminal commands.  
@@ -46,7 +45,6 @@ To collaborate with other developers, developers can push their changes to the r
 - rm -rf is used to remove folders. rf tells that we are using the command to remove a directory, as by default rm is used to remove a file
 - git \-\-version is used to see the version of git
 - touch file_name.txt is used to create a file
-
 
 # Basic Git commands
 - Git Repository is used to save project files and the information about the changes in the project. Repository can be created locally, or it can be a clone Git repository which is a copy of a remote Git repo.
@@ -72,6 +70,7 @@ To collaborate with other developers, developers can push their changes to the r
 	- git commit -m "message"
 - If there is a directory in your project folder and you want to ignore all files in the directory from future commits, you can add "directory-name/\*" in the .gitignore file
 
+![Git Journeys](/assets/img/images-for-pages/coding-and-maths/git/git-journeys.png){:class="img-responsive"}
 
 # Git Branches for Error Handling
 - Lets say there is an error in one of the files in the project folder
@@ -87,7 +86,6 @@ To collaborate with other developers, developers can push their changes to the r
 - git push origin \-\-delete err01 (we delete the err01 branch as we don’t need it anymore)
 	- git branch -d bugs (local branches can be deleted using -d)
 - git branch -a (list all branches)
-
 
 # Remote Repositories for Effective Collaboration
 - First step is to create a new repository on GitHub (don’t add a read-me, gitignore or license). Copy the url of the repository

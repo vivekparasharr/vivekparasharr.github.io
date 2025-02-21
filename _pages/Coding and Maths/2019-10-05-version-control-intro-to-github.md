@@ -7,11 +7,11 @@ tags:
     - version-control
     - git
     - github
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/git/github.jpg"
 ---
 A three part article series on version control using Git and GitHub. This is the third article in the series in which I will give a very brief introduction to GitHub. This will allow most readers to understand enough to utilize it for version control during development. 
 
----
+![Github window](/assets/img/images-for-pages/coding-and-maths/git/github-window.png){:class="img-responsive"}
 
 # What is GitHub?
 GitHub is a popular platform for hosting and sharing code repositories, and is widely used for version control and collaborative coding projects. If you're new to using GitHub for version control, here are some key things to keep in mind:

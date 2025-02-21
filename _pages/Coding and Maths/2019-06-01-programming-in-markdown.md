@@ -5,12 +5,14 @@ tags:
     - programming
     - coding
     - markdown
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/markdown.webp"
 ---
 # Quick Introduction
 Markdown is a lightweight markup language that is used to format text in a simple and consistent way. It was first created in 2004 by John Gruber and Aaron Swartz as a way to write content for the web that was easy to read and write.
 
 Markdown is designed to be easy to learn and use. It uses simple syntax to format text, making it easy to create headings, lists, links, and other formatting elements. Markdown can be used in a wide variety of contexts, including writing blog posts, creating documentation, and writing code comments.
+
+![Markdown Window](/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/markdown-window.jpg){:class="img-responsive"}
 
 One of the key features of Markdown is its simplicity. Markdown uses plain text that can be easily read and edited using any text editor. This makes it easy to collaborate on documents and to transfer files between different devices and platforms. Additionally, Markdown is supported by a wide variety of software tools and platforms, including blogging platforms, content management systems, and online forums.
 

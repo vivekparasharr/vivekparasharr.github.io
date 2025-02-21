@@ -7,10 +7,12 @@ tags:
     - r
     - r-programming
     - r-studio
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/r.png"
 ---
 # Quick Introduction
 R is a programming language and environment for statistical computing and graphics. It was created in the early 1990s by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. R is now widely used in academia, industry, and government for data analysis, statistical modeling, and data visualization.
+
+![R Window](/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/r-window.jpg){:class="img-responsive"}
 
 One of the key features of R is its wide range of statistical and graphical techniques. R provides a vast array of statistical and graphical methods, including linear and nonlinear modeling, classical statistical tests, time-series analysis, classification, clustering, and graphical techniques for data visualization. R is also highly extensible and has an active community of users and developers who create and contribute packages that enhance the capabilities of the language.
 

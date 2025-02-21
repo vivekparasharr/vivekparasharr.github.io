@@ -7,7 +7,7 @@ tags:
     - version-control
     - git
     - cheatsheet
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/git/git-journeys-deep.png"
 ---
 A three part article series on version control using Git and GitHub. This is the second article in the series in which I will share my Git cheatsheet. This will enable the reader to quickly recall important commands to aid development. 
 
@@ -22,7 +22,7 @@ A three part article series on version control using Git and GitHub. This is the
 
 By keeping these five key things in mind when using Git for version control, you can help ensure that your codebase is well-organized, well-documented, and easy to collaborate on with other team members.
 
----
+![Git Journeys Deep Dive](/assets/img/images-for-pages/coding-and-maths/git/git-journeys-deep.png){:class="img-responsive"}
 
 # Basic commands
 

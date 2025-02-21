@@ -3,9 +3,11 @@ title: "Overview of Deep Learning Techniques"
 date: "2022-01-01"
 tags:
     - deep-learning
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/deep-learning-overview.png"
 ---
 Deep learning is a subset of machine learning that involves training artificial neural networks to learn and perform complex tasks. While both deep learning and machine learning involve training models on data to make predictions or decisions, deep learning models typically have many layers and are capable of learning increasingly complex representations of data, whereas traditional machine learning models often require feature engineering to create effective representations of data. Additionally, deep learning models are often better suited for tasks such as image recognition, speech recognition, and natural language processing, which require high-dimensional input data and benefit from the ability to learn hierarchical representations of features.
+
+![Deep learning overview](/assets/img/images-for-pages/artificial-intelligence/deep-learning-overview.png){:class="img-responsive"}
 
 ## Key aplications of Deep Learning
 Deep learning can be used to solve regression, classification, and clustering problems. For example, convolutional neural networks (CNNs) can be used for image classification tasks, recurrent neural networks (RNNs) can be used for sequence classification tasks, and autoencoders can be used for clustering tasks. Additionally, deep learning models can be used for regression tasks, such as predicting stock prices or housing prices, by training a neural network to predict a continuous value.

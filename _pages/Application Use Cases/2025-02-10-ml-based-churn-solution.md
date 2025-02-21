@@ -8,13 +8,13 @@ tags:
     - xgboost
     - classification
     - artificial-neural-networks
-thumbnail: "/assets/img/images-for-pages/application-use-cases/ml-based-churn/churn.webp"
+thumbnail: "/assets/img/images-for-pages/application-use-cases/ml-based-churn-solution/churn.webp"
 ---
 In today’s fast-paced business landscape, customer expectations are higher than ever, and competition is relentless. Losing customers isn’t just about lost revenue-it impacts brand equity and opportunities for cross-selling other services. But what if businesses could predict churn before it happens?
 
 Advanced analytics is transforming customer retention strategies by enabling companies to identify at-risk customers before they leave. By leveraging churn prediction, marketing teams can optimize retention efforts, enhance Customer Lifetime Value (CLV), and personalize campaigns. This leads to more efficient resource allocation, stronger customer relationships, and long-term profitability through data-driven decision-making.
 
-![Where does this fit in the customer journey](/assets/img/images-for-pages/application-use-cases/ml-based-churn/cust-journey-fit.webp){:class="img-responsive"}
+![Where does this fit in the customer journey](/assets/img/images-for-pages/application-use-cases/ml-based-churn-solution/cust-journey-fit.webp){:class="img-responsive"}
 
 ---
 
@@ -28,7 +28,7 @@ While the original analysis was conducted for a financial institution, the techn
 Defining the Problem and Preparing the Data
 Every advanced analytics project starts with a clear definition of the problem. In this case, we aim to predict which customers are at risk of churning. This involves analyzing customer data-including demographics, service usage, and payment history-to identify patterns indicative of churn.
 
-![Model Development Lifecycle](/assets/img/images-for-pages/application-use-cases/ml-based-churn/model-dev-lifecycle.webp){:class="img-responsive"}
+![Model Development Lifecycle](/assets/img/images-for-pages/application-use-cases/ml-based-churn-solution/model-dev-lifecycle.webp){:class="img-responsive"}
 
 Model Development Lifecycle
 Data in organizations is often scattered across multiple systems, so consolidating it into a unified format is the first step. We then clean the data, ensuring it has no missing values. Missing numerical values can be imputed using statistical techniques, while encoding categorical values require methods such as one-hot encoding or label encoding. Next, we scale numerical features using standardization or normalization to ensure uniformity.
@@ -73,7 +73,7 @@ Churn prediction is a classification problem, and we experiment with several mod
 - XGBoost — An advanced boosting algorithm known for its high performance and efficiency, often outperforming traditional models by optimizing for both speed and accuracy.
 - Artificial Neural Networks (ANNs) — Capable of learning complex patterns in data, ANNs can capture intricate relationships but typically require larger datasets and more computational resources to train effectively.
 
-![Model Comparison](/assets/img/images-for-pages/application-use-cases/ml-based-churn/model-comparison.webp){:class="img-responsive"}
+![Model Comparison](/assets/img/images-for-pages/application-use-cases/ml-based-churn-solution/model-comparison.webp){:class="img-responsive"}
 
 Using Scikit-learn, we implement logistic regression as our baseline model. It’s easy to set up, requiring just a few lines of code. We fit the model to training data and use it to predict churn on test data, evaluating performance based on accuracy and precision.
 

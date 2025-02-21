@@ -7,9 +7,11 @@ tags:
     - redshift
     - pyspark
     - redshift-data
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/cloud-and-big-data/redshift-with-pyspark.png"
 ---
 Redshift is a cloud-based data warehousing service provided by Amazon Web Services, while Pandas is a popular data analysis library for the Python programming language, and PySpark is a powerful data processing engine that can handle large-scale data processing tasks. In this article, we will explore how to use Pandas and PySpark to read data from Redshift, enabling us to process and analyze large datasets efficiently. Further, we will also explore how to write data to a Redshift sandbox. 
+
+![Access Redshift with PySpark](/assets/img/images-for-pages/cloud-and-big-data/redshift-with-pyspark.png){:class="img-responsive"}
 
 # Read from Redshift using Python Pandas
 To read Redshift data using the redshift-data package and pandas, you can follow these steps:

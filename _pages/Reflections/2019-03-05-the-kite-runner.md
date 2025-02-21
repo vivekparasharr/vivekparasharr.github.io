@@ -4,7 +4,7 @@ date: "2019-03-05"
 tags:
     - novel
     - drama
-thumbnail: "/assets/img/images-for-pages/reflections/bookshelf/the-kite-runner.jpg"
+thumbnail: "/assets/img/images-for-pages/reflections/bookshelf/the-kite-runner.png"
 ---
 
 # Perspective: A Lesson from The Kite Runner

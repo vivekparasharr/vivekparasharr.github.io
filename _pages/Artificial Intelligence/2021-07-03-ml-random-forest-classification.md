@@ -5,7 +5,7 @@ tags:
     - machine-learning
     - classification
     - random-forest
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/random-forest-classification.png"
 ---
 Random Forest Classification is a machine learning algorithm used for classification tasks. It is an extension of the decision tree algorithm, where multiple decision trees are built and combined to make a more accurate and stable prediction.
 
@@ -32,7 +32,7 @@ Random Forest Classification is a machine learning algorithm that is based on th
 - Decision tree construction: For each bootstrap sample and feature subset, a decision tree is constructed by recursively splitting the data into smaller subsets based on the selected features. The split is chosen to maximize the information gain, which is a measure of how well the split separates the classes.
 - Voting: Once all the decision trees have been constructed, their predictions are combined through a voting mechanism. Each decision tree predicts the class label of a test instance, and the final prediction is based on the majority vote of all the decision trees.
 
----
+![Random forest classificaiton](/assets/img/images-for-pages/artificial-intelligence/random-forest-classification.png){:class="img-responsive"}
 
 ## Implementing Random Forest Classificaiton in Python
 To implement Random Forest Classification in Python, we can use the scikit-learn library. Here is an example code snippet:

@@ -5,11 +5,11 @@ tags:
     - machine-learning
     - classification
     - decision-trees
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/decision-tree-classification.png"
 ---
 Decision tree classification is a widely used machine learning algorithm that is used to predict a categorical output variable based on one or more input variables. The algorithm works by constructing a tree-like model that maps the observations in the input space to the output variable. In this article, we will discuss how to implement decision tree classification in Python and R.
 
----
+![Decision tree classification](/assets/img/images-for-pages/artificial-intelligence/decision-tree-classification.png){:class="img-responsive"}
 
 ## Implementing Decision tree classification in Python
 ### Step 1: Import the Required Libraries

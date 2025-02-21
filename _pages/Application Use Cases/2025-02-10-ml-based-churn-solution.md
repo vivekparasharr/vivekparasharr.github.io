@@ -102,8 +102,7 @@ What strategies have you implemented in your organization to predict and reduce 
 
 ---
 
-Framework code can be found here: https://www.kaggle.com/code/vivekparasharr/churn-prediction-logistic-random-forest-xgb-ann.
-
+Framework code can be found here: [Kaggle](https://www.kaggle.com/code/vivekparasharr/churn-prediction-logistic-random-forest-xgb-ann)
 ---
 
-Originally published at https://www.linkedin.com/pulse/implementing-machine-learning-based-churn-solution-vivek-parashar-75fzc/?trackingId=SCrGbDPgLnSSb5KwkEIPtA%3D%3D.
+Originally published on [LinkedIn](https://www.linkedin.com/pulse/implementing-machine-learning-based-churn-solution-vivek-parashar-75fzc/?trackingId=SCrGbDPgLnSSb5KwkEIPtA%3D%3D)

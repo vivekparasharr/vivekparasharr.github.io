@@ -2,11 +2,9 @@
 title: "Orion: The Hunter in the Night Sky"
 date: "2025-02-19"
 tags:
-    - cloud
-    - gcp
-    - google-cloud-platform
-    - kubernetes
-    - bigtable
+    - astronomy
+    - astrophotography
+    - orion-constellation
 thumbnail: "/assets/img/images-for-pages/skywatching/orion-the-hunter.jpeg"
 ---
 # Introduction

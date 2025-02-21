@@ -5,7 +5,7 @@ tags:
     - machine-learning
     - clustering
     - k-means
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/k-means-clustering.png"
 ---
 K-means clustering is a popular unsupervised learning technique used to cluster data points based on their similarity. In this article, we will explore what k-means clustering is, how it works, and how to implement it in Python and R.
 
@@ -18,8 +18,6 @@ K-means clustering follows a simple procedure to partition the data into k clust
 - Assignment: Assign each data point to the nearest cluster centroid based on the Euclidean distance.
 - Update: Calculate the new cluster centroid for each cluster based on the mean of all data points assigned to it.
 - Repeat: Repeat steps 2 and 3 until the cluster assignments no longer change or a maximum number of iterations is reached.
-
----
 
 ## Elbow method to choose the optimal number of clusters
 The elbow method is a popular technique for choosing the optimal number of clusters in k-means clustering. It involves plotting the values of the within-cluster sum of squares (WSS) against the number of clusters, and identifying the "elbow" in the curve as the point at which additional clusters no longer provide a significant reduction in WSS.
@@ -46,7 +44,8 @@ plt.show()
 # Identify the "elbow" in the curve and select the optimal number of clusters
 ```
 
----
+![K-Means clustering](/assets/img/images-for-pages/artificial-intelligence/k-means-clustering.png){:class="img-responsive"}
+
 
 ## How to Implement K-means Clustering in Python?
 Python has many machine learning libraries that provide built-in functions for implementing k-means clustering. Here is a simple example using the scikit-learn library:

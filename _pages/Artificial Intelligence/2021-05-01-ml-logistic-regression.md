@@ -6,7 +6,7 @@ tags:
     - classification
     - logistic-regression
     - logistic
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: /assets/img/images-for-pages/artificial-intelligence/logistic-regression.png
 ---
 Logistic regression is a type of statistical analysis (also known as logit model). It is often used for predictive analytics and modeling, and extends to applications in machine learning. In this analytics approach, the dependent variable is finite or categorical: either A or B (binary regression) or a range of finite options A, B, C or D (multinomial regression). It is used to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation.
 
@@ -35,6 +35,8 @@ Before we apply the logistic regression model, we also need to check if the foll
 - There is No Multicollinearity Among Explanatory Variables - The most common way to detect multicollinearity is by using the variance inflation factor (VIF), which measures the correlation and strength of correlation between the predictor variables in a regression model. 
 - There are No Extreme Outliers - The most common way to test for extreme outliers and influential observations in a dataset is to calculate Cook’s distance for each observation. If there are indeed outliers, you can choose to (1) remove them, (2) replace them with a value like the mean or median, or (3) simply keep them in the model but make a note about this when reporting the regression results.
 - There is a Linear Relationship Between Explanatory Variables and the Logit of the Response Variable. The easiest way to see if this assumption is met is to use a Box-Tidwell test.
+
+![Logistic regression](/assets/img/images-for-pages/artificial-intelligence/logistic-regression.png){:class="img-responsive"}
 
 ## Implementing the model in python and R
 Implementing the model consists of the following key steps. 

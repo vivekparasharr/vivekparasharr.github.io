@@ -18,7 +18,9 @@ The process of building a machine learning model typically involves several step
 
 There are several types of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. 
 
-# Supervised learning involves training a model on labeled data, meaning that the desired output is already known. 
+# Supervised learning
+It involves training a model on labeled data, meaning that the desired output is already known. 
+
 ## Regression
 Regression is used to predict a continuous value, such as a number or a quantity. It is used to model the relationship between a dependent variable (the output) and one or more independent variables (the inputs). Regression is commonly used for tasks such as predicting stock prices, weather forecasting, or predicting sales figures.
 
@@ -44,7 +46,9 @@ Following are some common classification algorithms:
 - Decision Trees: A decision tree is a flowchart-like structure in which each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label. Decision trees are popular because they are easy to understand and interpret.
 - Random Forest works by creating multiple decision trees, each based on a different random subset of the original data. The trees are then combined to make predictions on new data by taking a majority vote. The main advantage of Random Forest is that it can handle both categorical and numerical data, and can also handle missing values. It is known for its high accuracy and is often used in real-world applications such as image classification, fraud detection, and recommendation systems. However, it can be computationally expensive and may overfit if the number of trees is too large.
 
-# Unsupervised learning involves training a model on unlabeled data, meaning that the model must identify patterns and relationships on its own. 
+# Unsupervised learning 
+It involves training a model on unlabeled data, meaning that the model must identify patterns and relationships on its own. 
+
 ## Clustering
 Clustering is a technique used in unsupervised machine learning to group similar data points together based on their attributes or features. 
 
@@ -63,8 +67,8 @@ Following are some common association rule learning algorithms:
 - FP-Growth algorithm: A faster algorithm than Apriori that builds a compact representation of the dataset, known as a frequent pattern (FP) tree, to efficiently mine frequent itemsets and generate association rules.
 - Eclat algorithm: Another algorithm that mines frequent itemsets in a dataset, but instead of generating association rules, it focuses on finding frequent itemsets that share a common prefix.
 
-## Reinforcement learning involves training a model to make decisions based on trial-and-error feedback.
-Reinforcement learning, is a broader class of problems in which an agent interacts with an environment over a period of time, and the agent's goal is to learn a policy that maximizes its total reward over the long run.
+## Reinforcement learning 
+Reinforcement learning, is a broader class of problems in which an agent interacts with an environment over a period of time, and the agent's goal is to learn a policy that maximizes its total reward over the long run. It involves training a model to make decisions based on trial-and-error feedback.
 
 On the other hand, the multi-armed bandit problem is often considered as a simpler version of reinforcement learning. In multi-armed bandit problem, an agent repeatedly selects an action (often referred to as a "bandit arm") and receives a reward associated with that action. The agent's goal is to maximize its total reward over a fixed period of time.
 

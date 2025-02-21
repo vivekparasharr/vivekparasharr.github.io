@@ -7,13 +7,13 @@ tags:
     - support-vector-regression
     - support-vector
     - svr
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: /assets/img/images-for-pages/artificial-intelligence/svr.png
 ---
 Support Vector Regression (SVR) is a type of regression algorithm that uses Support Vector Machines (SVM) to perform regression analysis. In contrast to traditional regression algorithms, which aim to minimize the error between the predicted and actual values, SVR aims to fit a "tube" around the data such that the majority of the data points fall within the tube. The goal of SVR is to find a function that has a maximum margin from the tube.
 
 In SVR, the input data is transformed into a higher-dimensional space, where a linear regression model is applied. The SVM then finds the best fit line for the transformed data, which corresponds to a non-linear fit in the original data space.
 
----
+![Support vector regression](/assets/img/images-for-pages/artificial-intelligence/svr.png){:class="img-responsive"}
 
 ## Implementing SVR in Python
 

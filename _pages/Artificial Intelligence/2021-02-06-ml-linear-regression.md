@@ -6,7 +6,7 @@ tags:
     - regression
     - linear-regression
     - linear
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: /assets/img/images-for-pages/artificial-intelligence/linear-reg.png
 ---
 Regression is a supervised learning technique to predict the value of a continuous target or dependent variable using a combination of predictor or independent variables. Linear regression is a type of regression where the primary consideration is that the independent and dependent variables have a linear relationship. Linear regression is of two broad types - simple linear regression and multiple linear regression. In simple linear regression there is only one independent variable. Whereas, multiple linear regression refers to a statistical technique that uses two or more independent variables to predict the outcome of a dependent variable. Linear regression also has some modifications such as lasso, ridge or elastic-net regression. However, in this article we will cover multiple linear regression. 
 
@@ -28,6 +28,8 @@ Before we apply the linear regression model, we also need to check if the follow
 - Homoscedasticity: The variance of residual is the same for any value of X
 - Independence: Observations are independent of each other
 - Normality: For any fixed value of X, Y is normally distributed
+
+![Linear regression](/assets/img/images-for-pages/artificial-intelligence/linear-reg.png){:class="img-responsive"}
 
 ## Implementing the model in python and R
 Implementing the model consists of the following key steps. 

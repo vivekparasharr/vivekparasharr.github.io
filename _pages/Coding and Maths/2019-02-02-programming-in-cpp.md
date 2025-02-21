@@ -5,10 +5,12 @@ tags:
     - programming
     - coding
     - c++
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/cpp.png"
 ---
 # Quick Introduction
 C++ is a powerful and popular programming language that was developed in the 1980s as an extension of the C programming language. It is a high-level, object-oriented language that is used to develop a wide range of applications, including operating systems, device drivers, game engines, and more. C++ is also widely used in the field of finance and quantitative analysis, due to its speed and efficiency.
+
+![C++ Window](/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/cpp-window.png){:class="img-responsive"}
 
 One of the key features of C++ is its ability to directly manipulate memory, allowing for low-level control over the hardware. C++ is also known for its efficiency and speed, making it a popular choice for developing applications that require high performance, such as video games and real-time systems.
 

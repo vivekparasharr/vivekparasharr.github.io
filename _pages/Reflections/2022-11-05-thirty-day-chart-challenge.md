@@ -6,14 +6,15 @@ tags:
     - competition
     - python
     - r
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/reflections/maps-2020-11/2021-04-Charts-Combined2.jpg"
 ---
-During the month of April 2021, I participated in the [#30DayMapChallenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021), a daily social data project hosted by [Cédric Scherer](https://github.com/z3tt), [Maya Gans](https://github.com/MayaGans) and [Dominic Royé](https://github.com/dominicroye). In this blog post I wanted to briefly talk about the project and share my experience, learnings in terms of data and tools used, and challenges faced. However, before I delve into that, here is a collage of [my submissions](/assets/img/competitions/2021-04-Charts-Combined2.jpg). 
-HD Version: ![charts-combined](/assets/img/competitions/2021-04-Charts-Combined2.jpg){:class="img-responsive"}
+During the month of April 2021, I participated in the [#30DayMapChallenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021), a daily social data project hosted by [Cédric Scherer](https://github.com/z3tt), [Maya Gans](https://github.com/MayaGans) and [Dominic Royé](https://github.com/dominicroye). In this blog post I wanted to briefly talk about the project and share my experience, learnings in terms of data and tools used, and challenges faced. However, before I delve into that, here is a collage of [my submissions](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-Charts-Combined.png).
+
+HD Version: ![charts-combined](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-Charts-Combined2.jpg){:class="img-responsive"}
 
 ### The ask
 The project was about plotting a chart a day using any tool and any relevant dataset. Each day had a different theme and there were five main themes and then sub-themes within them as shown below. For example for day 1 part-to-whole comparison, one could plot the number of Indian Netflix viewers out of the total number of Netflix viewers across the world. For day 15 multivariate relationships, one could plot the relationship between technology indicators and stock market performance. 
-![charts-guide](/assets/img/competitions/2021-04-Charts-Combined3.png){:class="img-responsive"}
+![charts-guide](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-Charts-Combined3.png){:class="img-responsive"}
 
 ### Tools used
 I mainly used Python for plotting. There were several visualization libraries that I used such as [Plotly](https://plotly.com/python/), [Altair](https://altair-viz.github.io/), [Seaborn](https://seaborn.pydata.org/), [Matplotlib](https://matplotlib.org/), and [pandas.plot](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html). I wanted to use [Bokeh](https://docs.bokeh.org/en/latest/docs/gallery.html) and [plotnine](https://plotnine.readthedocs.io/en/stable/) for later some submissions but did not have time alongside my job so ended up reusing some of the code from initial submissions. Overall, I found that Plotly was best for customization while Seaborn and Altair let you create some neat charts very quickly.
@@ -37,7 +38,7 @@ for i in range(0, y_axis_levels):
         connectgaps=True,
     ))
 ```
-![chart03](/assets/img/competitions/charts-2021-04/2021-04-03.png){:class="img-responsive"} 
+![chart03](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-03.png){:class="img-responsive"} 
 
 For day 5, I found an interesting dataset on OWID about the energy use per person by country. In general the energy use has been increasing dramatically with some of the most developed countries with the highest energy used per capita. Tried to capture this across time using a slope chart plotted using Plotly. Used for loop to plot separate lines for each country and added separate lines to reflect time. 
 ```python
@@ -48,7 +49,7 @@ for x_val, y_val, cat_val in zip(year1val, year2val, cat1val):
 fig.add_shape(type="line", x0=year1, y0=vp_min, x1=year1, y1=vp_max,line=dict(color="Grey",width=2))
 fig.add_shape(type="line", x0=year2, y0=vp_min, x1=year2, y1=vp_max,line=dict(color="Grey",width=2))
 ```
-![chart05](/assets/img/competitions/charts-2021-04/2021-04-05.png){:class="img-responsive"} 
+![chart05](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-05.png){:class="img-responsive"} 
 
 For day 10, I focused on showing the meat consumption trend using Altair. The library makes it really simple to plot shapes on a chart. Following is partial code and the output. 
 ```python
@@ -60,7 +61,7 @@ chart = alt.Chart(source).mark_point(filled=True, opacity=1, size=100).encode(
     alt.Color('animal:N', legend=None, scale=color_scale),
 )
 ```
-![chart10](/assets/img/competitions/charts-2021-04/2021-04-10.png){:class="img-responsive"} 
+![chart10](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-10.png){:class="img-responsive"} 
 
 For day 11, I decided to just plot the number of cases of COVID-19 that happened over a period of 1 year in Chile. Used Matplotlib to plot this. Following is partial code and the output. 
 ```python
@@ -75,7 +76,7 @@ circular_hist(ax[0], angles0)
 # Visualise by radius of bins
 circular_hist(ax[1], angles1, offset=np.pi/2, density=False)
 ```
-![chart11](/assets/img/competitions/charts-2021-04/2021-04-11.png){:class="img-responsive"} 
+![chart11](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-11.png){:class="img-responsive"} 
 
 Day 16 was about trees, so decided to use the Kaggle dataset on mushrooms and ran a decision tree model with default values for the parameters to classify a mushroom as poisonous or not, and built a  tree map. 
 ```python
@@ -95,7 +96,7 @@ _ = tree.plot_tree(clf,
                    filled=True)
 fig.savefig("decistion_tree.png")
 ```
-![chart16](/assets/img/competitions/charts-2021-04/2021-04-16.png){:class="img-responsive"} 
+![chart16](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-16.png){:class="img-responsive"} 
 
 Day 24 was limiting in the way that you could only plot a monochrome chart. Found the interesting dataset on US post offices which showed how many post offices were established and disconnected by year. Plotted the established count on +y and discontinued on the -y axis. 
 ```python
@@ -115,7 +116,7 @@ fig.add_trace(
     row=2, col=1
 )
 ```
-![chart24](/assets/img/competitions/charts-2021-04/2021-04-24.png){:class="img-responsive"} 
+![chart24](/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-24.png){:class="img-responsive"} 
 
 ### The challenge
 The biggest challenge was certainly in finding the right data for the kind of chart to be plotted on a particular day. Following are some of the websites that I used for getting the data [data.world](https://data.world/), [kaggle](https://www.kaggle.com/datasets), [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021), [MakeoverMonday](https://www.makeovermonday.co.uk/data/), 

@@ -9,6 +9,7 @@ tags:
     - classification
     - artificial-neural-networks
 thumbnail: "/assets/img/images-for-pages/application-use-cases/ml-based-churn-solution/churn.webp"
+bookmark: true
 ---
 # Introduction
 In today’s fast-paced business landscape, customer expectations are higher than ever, and competition is relentless. Losing customers isn’t just about lost revenue-it impacts brand equity and opportunities for cross-selling other services. But what if businesses could predict churn before it happens?

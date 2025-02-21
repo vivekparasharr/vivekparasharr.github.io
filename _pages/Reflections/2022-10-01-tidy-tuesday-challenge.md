@@ -6,16 +6,16 @@ tags:
     - competition
     - tidytuesday
     - visualization
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/reflections/charts-2021-04/2021-04-Charts-Combined2.jpg"
 ---
 Since October 2020, I have been participating in TidyTuesday, a weekly social data project hosted by R for Data Science Online Learning Community. This enabled to me to quickly up-skill the visualization aspect of my data science journey. I also had the pleasure to engage with several likeminded people and curate and learn from their submissions and thought process. In the following post, I strive to share my experience and learnings. 
 
 ---
 
 Here is a snapshot of few of the visualizations I created:
-![charts-combined](/assets/img/competitions/2021-04-Charts-Combined2.jpg){:class="img-responsive"}
+![charts-combined](/assets/img/images-for-pages/reflections/2021-04-Charts-Combined2.jpg){:class="img-responsive"}
 
-[HD Version](/assets/img/competitions/2021-04-Charts-Combined.png)
+[HD Version](/assets/img/images-for-pages/reflections/2021-04-Charts-Combined.png)
 
 ---
 

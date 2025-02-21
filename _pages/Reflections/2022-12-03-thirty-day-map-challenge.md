@@ -6,15 +6,15 @@ tags:
     - maps
     - competition
     - python
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/reflections/maps-2020-11/2020-11-Maps-Combined2.jpg"
 ---
 The #30DayMapChallenge was a daily social mapping project held in November 2020 that I participated in. I had a good understanding of Python before participating but very less knowledge of working with GIS data. So I had plotted some data on maps using Microsoft Excel, the data for which was usually in tabular format in an Excel or CSV. However, I had never heard of Shape files, DEM – Digital Elevation Models, DSM – Digital Surface Models, or DTM – Digital Terrain Models, etc. Understanding these formats, what they contain and how they can be processed was the biggest challenge I encountered. 
 
 GeoPandas is a Python library for working with geospatial data, built on top of the Pandas library. It extends the Pandas data analysis library to enable spatial operations on geometric types. GeoPandas provides data structures to represent geometric objects (points, lines, polygons) and allows for spatial operations on them, such as intersection and distance. GeoPandas also provides tools for reading and writing geospatial data in various formats and for visualizing geospatial data.
 
-![maps-combined](/assets/img/competitions/2020-11-Maps-Combined2.jpg){:class="img-responsive"}
+![All Submissions](/assets/img/images-for-pages/reflections/maps-2020-11/2020-11-Maps-Combined2.jpg){:class="img-responsive"}
 
-[HD Version](/assets/img/competitions/2020-11-Maps-Combined.png)
+[All Submissions - HD](/assets/img/images-for-pages/reflections/maps-2020-11/2020-11-Maps-Combined.png)
 
 
 # How to install GeoPandas?

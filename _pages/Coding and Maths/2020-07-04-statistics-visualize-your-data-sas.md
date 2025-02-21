@@ -6,7 +6,7 @@ tags:
     - descriptive
     - visualize
     - sas
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/07-qqplot.png"
 ---
 This is the third of a series of articles that I will write to give a gentle introduction to statistics. In this article we will cover how we can visualize data using various charts and how to read them. I will show how to create these charts using SAS and will include code snippets as well. For a full version of the code visit my [GitHub repository](https://github.com/vivekparasharr/Learn-Programming). 
 
@@ -27,7 +27,7 @@ proc print data=tips;
 run;
 ```
 Lets take a quick look at how the tips dataset is structured:
-![tips-dataset](/assets/img/mathematics/visualize-with-sas/00-tips-dataset.png){:class="img-responsive"}
+![tips-dataset](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/00-tips-dataset.png){:class="img-responsive"}
 
 We can further see some summary information on the dataset using proc contents statement. 
 ```sas
@@ -40,7 +40,7 @@ You will notice that I am ending all lines with a semicolon. Unlike Python, SAS 
 Now lets move to visualizing this data. We will cover the following charts in this article:
 - *Dot plot* shows changes between two (or more) points in time or between two (or more) conditions.
 
-![dot-plot](/assets/img/mathematics/visualize-with-sas/01-dot.png){:class="img-responsive"}
+![dot-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/01-dot.png){:class="img-responsive"}
 
 ```sas
 proc sgplot data=tips;
@@ -60,7 +60,7 @@ run;
 
 - *Bar (horizontal and vertical) chart* is used when you want to show a distribution of data points or perform a comparison of metric values across different subgroups of your data.
 
-![bar-plot](/assets/img/mathematics/visualize-with-sas/02-bar.png){:class="img-responsive"}
+![bar-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/02-bar.png){:class="img-responsive"}
 
 ```sas
 # horizontal bar chart;
@@ -88,7 +88,7 @@ run;
 
 - *Stacked Bar char* is useful when you want to show more than one categorical variable per bar
 
-![stacked-bar-plot](/assets/img/mathematics/visualize-with-sas/03-stacked-bar.png){:class="img-responsive"}
+![stacked-bar-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/03-stacked-bar.png){:class="img-responsive"}
 
 ```sas
 # Offset Dual Horizontal Bar Plot;
@@ -116,7 +116,7 @@ run;
 
 - *Needle plot* is similar to barplot and a scatter plot, it can be used to plot datasets that have too many mutations for a barplot to be meaningful. 
 
-![needle-plot](/assets/img/mathematics/visualize-with-sas/04-needle.png){:class="img-responsive"}
+![needle-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/04-needle.png){:class="img-responsive"}
 
 ```sas
 proc sgplot data=tips;
@@ -132,7 +132,7 @@ run;
 
 - *Boxplot (horizontal and vertical)* In a box plot, numerical data is divided into quartiles, and a box is drawn between the first and third quartiles, with an additional line drawn along the second quartile to mark the median. In some box plots, the minimums and maximums outside the first and third quartiles are depicted with lines, which are often called whiskers.
 
-![box-plot](/assets/img/mathematics/visualize-with-sas/05-box.png){:class="img-responsive"}
+![box-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/05-box.png){:class="img-responsive"}
 
 ```sas
 # Vertical Box plot;
@@ -152,7 +152,7 @@ run;
 
 - *Histogram* is a visual representation of the frequency distribution of your data. The frequencies are represented by bars. 
 
-![hist-plot](/assets/img/mathematics/visualize-with-sas/06-histogram.png){:class="img-responsive"}
+![hist-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/06-histogram.png){:class="img-responsive"}
 
 ```sas
 proc sgplot data=tips;
@@ -171,7 +171,7 @@ run;
   - *qq plot (Quantile-to-Quantile)* is used to compare the quantiles of two distributions. The quantiles can be defined as continuous intervals with equal probabilities or dividing the samples between a similar way The distributions may be theoretical or sample distributions from a process, etc. 
     - Normal probability plot is a case of the qq plot. It is a way of knowing whether the dataset is normally distributed or not
 
-![qq-plot](/assets/img/mathematics/visualize-with-sas/07-qqplot.png){:class="img-responsive"}
+![qq-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/07-qqplot.png){:class="img-responsive"}
 
 ```sas
 proc univariate data=tips;
@@ -182,7 +182,7 @@ run;
 
 - *Scatter plot* shows the relationship between two numerical variables.
 
-![scatter-plot](/assets/img/mathematics/visualize-with-sas/08-scatter.png){:class="img-responsive"}
+![scatter-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/08-scatter.png){:class="img-responsive"}
 
 ```sas
 proc sgplot data=tips; 
@@ -229,7 +229,7 @@ ACROSS=Specifies number of columns in legend
 TITLEATTRS=Specifies text attributes of legend title
 VALUEATTRS=Specifies text attributes of legend values
 
-![line-plot](/assets/img/mathematics/visualize-with-sas/10-line.png){:class="img-responsive"}
+![line-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-sas/10-line.png){:class="img-responsive"}
 
 ```sas
 # Basic line plot

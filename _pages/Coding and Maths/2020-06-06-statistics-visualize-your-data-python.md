@@ -6,7 +6,7 @@ tags:
     - descriptive
     - visualize
     - python
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/visualize-with-python/13-sunburst.png"
 ---
 This is the second of a series of articles that I will write to give a gentle introduction to statistics. In this article we will cover how we can visualize data using various charts and how to read them. I will show how to create these charts using Python and will include code snippets as well. For a full version of the code visit my [GitHub repository](https://github.com/vivekparasharr/Learn-Programming). 
 
@@ -30,12 +30,12 @@ import statsmodels.api as sm
 ```
 
 Lets take a quick look at how the tips dataset is structured:
-![tips-dataset](/assets/img/mathematics/visualize-with-python/00-tips-dataset.png){:class="img-responsive"}
+![tips-dataset](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/00-tips-dataset.png){:class="img-responsive"}
 
 We will cover the following charts in this article:
 - *Dot plot* shows changes between two (or more) points in time or between two (or more) conditions.
 
-![dot-plot](/assets/img/mathematics/visualize-with-python/01-dot.png){:class="img-responsive"}
+![dot-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/01-dot.png){:class="img-responsive"}
 
 ```python
 # Using plotly library
@@ -47,7 +47,7 @@ px.scatter(t, x='day', y='total_bill', color='sex',
 
 - *Bar (horizontal and vertical) chart* is used when you want to show a distribution of data points or perform a comparison of metric values across different subgroups of your data.
 
-![bar-plot](/assets/img/mathematics/visualize-with-python/02-bar.png){:class="img-responsive"}
+![bar-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/02-bar.png){:class="img-responsive"}
 
 ```python
 # Using pandas plot
@@ -62,7 +62,7 @@ px.bar(t, x='total_bill', y="day", orientation='h')
 
 - *Stacked Bar char* is useful when you want to show more than one categorical variable per bar
 
-![stacked-bar-plot](/assets/img/mathematics/visualize-with-python/03-stacked-bar.png){:class="img-responsive"}
+![stacked-bar-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/03-stacked-bar.png){:class="img-responsive"}
 
 ```python
 # using pandas plot; kind='barh' for horizontal plot 
@@ -79,7 +79,7 @@ px.bar(t, x="total_bill", y="day", color="sex", title="Average bill by Gender an
 
 - *Boxplot (horizontal and vertical)* In a box plot, numerical data is divided into quartiles, and a box is drawn between the first and third quartiles, with an additional line drawn along the second quartile to mark the median. In some box plots, the minimums and maximums outside the first and third quartiles are depicted with lines, which are often called whiskers.
 
-![box-plot](/assets/img/mathematics/visualize-with-python/04-box.png){:class="img-responsive"}
+![box-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/04-box.png){:class="img-responsive"}
 
 ```python
 # using pandas plot
@@ -95,7 +95,7 @@ sns.boxplot(y=tips["total_bill"])
 
 - *Violin plot* is a variation of box plot
 
-![violin-plot](/assets/img/mathematics/visualize-with-python/05-violin.png){:class="img-responsive"}
+![violin-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/05-violin.png){:class="img-responsive"}
 
 ```python
 # Using seaborn
@@ -114,7 +114,7 @@ sns.catplot(x='sex', y='total_bill',
 
 - *Histogram* is a visual representation of the frequency distribution of your data. The frequencies are represented by bars. 
 
-![hist-plot](/assets/img/mathematics/visualize-with-python/06-histogram.png){:class="img-responsive"}
+![hist-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/06-histogram.png){:class="img-responsive"}
 
 ```python
 # using pandas plot
@@ -135,7 +135,7 @@ alt.Chart(tips).mark_bar().encode(alt.X('total_bill:Q', bin=True),y='count()')
   - *qq plot (Quantile-to-Quantile)* is used to compare the quantiles of two distributions. The quantiles can be defined as continuous intervals with equal probabilities or dividing the samples between a similar way The distributions may be theoretical or sample distributions from a process, etc. 
     - Normal probability plot is a case of the qq plot. It is a way of knowing whether the dataset is normally distributed or not
 
-![qq-plot](/assets/img/mathematics/visualize-with-python/07-qqplot.png){:class="img-responsive"}
+![qq-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/07-qqplot.png){:class="img-responsive"}
 
 ```python
 # using statsmodels
@@ -147,7 +147,7 @@ sm.ProbPlot(np.array(tips.total_bill)).qqplot(line='s')
 
 - *Scatter plot* shows the relationship between two numerical variables.
 
-![scatter-plot](/assets/img/mathematics/visualize-with-python/08-scatter.png){:class="img-responsive"}
+![scatter-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/08-scatter.png){:class="img-responsive"}
 
 ```python
 # using plotly
@@ -159,7 +159,7 @@ tips.plot(x='total_bill', y='tip', kind='scatter')
 
 - *Reg plot* creates a regression line between 2 parameters and helps to visualize their linear relationships
 
-![reg-plot](/assets/img/mathematics/visualize-with-python/09-reg.png){:class="img-responsive"}
+![reg-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/09-reg.png){:class="img-responsive"}
 
 ```python
 # using seaborn
@@ -171,7 +171,7 @@ sns.regplot(x="size", y="total_bill", data=tips, x_jitter=.1)
 
 - *Line plot* is used to visualize the value of something over time
 
-![line-plot](/assets/img/mathematics/visualize-with-python/10-line.png){:class="img-responsive"}
+![line-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/10-line.png){:class="img-responsive"}
 
 ```python
 # using pandas plot
@@ -192,7 +192,7 @@ sns.lineplot(data=t, x='day', y='total_bill')
 
 - *Area plot* is like a line chart in terms of how data values are plotted on the chart and connected using line segments. In an area plot, however, the area between the line segments and the x-axis is filled with color.
 
-![area-plot](/assets/img/mathematics/visualize-with-python/11-area.png){:class="img-responsive"}
+![area-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/11-area.png){:class="img-responsive"}
 
 ```python
 # using pandas plot
@@ -212,7 +212,7 @@ alt.Chart(t).mark_area().encode(x='day', y='total_bill')
 
 - *Pie chart* is a circular statistical graphic, which is divided into slices to illustrate numerical proportion. In a pie chart, the arc length of each slice, is proportional to the quantity it represents. 
 
-![pie-plot](/assets/img/mathematics/visualize-with-python/12-pie.png){:class="img-responsive"}
+![pie-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/12-pie.png){:class="img-responsive"}
 
 ```python
 # using pandas plot
@@ -224,7 +224,7 @@ px.pie(tips, values='tip', names='day')
 
 - *Sunburst chart* is ideal for displaying hierarchical data. Each level of the hierarchy is represented by one ring or circle with the innermost circle as the top of the hierarchy.
 
-![sunburst-plot](/assets/img/mathematics/visualize-with-python/13-sunburst.png){:class="img-responsive"}
+![sunburst-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/13-sunburst.png){:class="img-responsive"}
 
 ```python
 px.sunburst(tips, path=['sex', 'day', 'time'], values='total_bill', color='day')
@@ -232,7 +232,7 @@ px.sunburst(tips, path=['sex', 'day', 'time'], values='total_bill', color='day')
 
 - *Radar chart* is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point.
 
-![radar-plot](/assets/img/mathematics/visualize-with-python/14-radar.png){:class="img-responsive"}
+![radar-plot](/assets/img/images-for-pages/coding-and-maths/visualize-with-python/14-radar.png){:class="img-responsive"}
 
 ```python
 # using plotly

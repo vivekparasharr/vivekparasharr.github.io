@@ -6,9 +6,9 @@ tags:
     - descriptive
     - central-tendency
     - spread
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/statistics-descriptive/statistics01.png"
 ---
-![world-of-statistics](/assets/img/mathematics/statistics-descriptive/statistics00.png){:class="img-responsive"}
+![world-of-statistics](/assets/img/images-for-pages/coding-and-maths/statistics-descriptive/statistics00.png){:class="img-responsive"}
 This is the first of a series of articles that I will write to give a gentle introduction to statistics. In this article we will introduce some basic statistical concepts and learn how to use basic statistics to help you describe your data. 
 
 We will cover the following topics in this article:
@@ -29,7 +29,7 @@ We will cover the following topics in this article:
 	- *Convenience sampling* - here we collect sample from section of population that is easily available
 
 **The difference between Descriptive and Inferential statistics:**
-![types-of-statistics](/assets/img/mathematics/statistics-descriptive/statistics01.png){:class="img-responsive"}
+![types-of-statistics](/assets/img/images-for-pages/coding-and-maths/statistics-descriptive/statistics01.png){:class="img-responsive"}
 - *Descriptive statistics* - its all about organizing, describing and summarizing data
 	- *Exploratory data analysis (EDA)*
 		- *measures of location* - such as Mean, Median, Mode
@@ -39,7 +39,7 @@ We will cover the following topics in this article:
 	- *Predictive modelling* - if you know x, can you predict y?
 
 **Different types of variables:**
-![types-of-variables](/assets/img/mathematics/statistics-descriptive/statistics02.png){:class="img-responsive"}
+![types-of-variables](/assets/img/images-for-pages/coding-and-maths/statistics-descriptive/statistics02.png){:class="img-responsive"}
 - *Quantitative*
 	- *Discrete*: a variable whose value is obtained by counting. Example, number of students in a class
 	- *Continuous*: a variable whose value is obtained by measuring. Example, height of all students in a class
@@ -50,7 +50,7 @@ We will cover the following topics in this article:
 	- *Ordinal*: example size - small, medium, or large
  
 **Types of descriptive statistics:**
-![formula-mean](/assets/img/mathematics/statistics-descriptive/statistics03-formulas.png){:class="img-responsive"}
+![formula-mean](/assets/img/images-for-pages/coding-and-maths/statistics-descriptive/statistics03-formulas.png){:class="img-responsive"}
 - *Measures of location*: mainly measures of central tendency
 	- *Mean*: sum of all values divided by the number of values
 ```python
@@ -91,7 +91,7 @@ cv(tips.total_bill)
 - *Measures of symmetry and peakedness*: Skewness measures symmetry and Kurtosis measures peakedness
 
 **Normal or Gaussian distribution**
-![formula-mean](/assets/img/mathematics/statistics-descriptive/statistics04-norm-dist.png){:class="img-responsive"}
+![formula-mean](/assets/img/images-for-pages/coding-and-maths/statistics-descriptive/statistics04-norm-dist.png){:class="img-responsive"}
 - This is one of the most common statistical distribution. The curve of this distribution is shaped like a bell. 
 - The shape of the bell depends on mean and standard deviation of the data
 - Larger the standard deviation, wider the distribution

@@ -7,7 +7,7 @@ tags:
     - xgboost
     - classification
     - regression
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/xgboost.png"
 ---
 XGBoost (Extreme Gradient Boosting) is a popular algorithm for supervised learning problems, including regression, classification, and ranking tasks. In the financial services industry, XGBoost can be used for a variety of regression problems, such as predicting stock prices, credit risk scoring, and forecasting financial time series.
 
@@ -23,7 +23,7 @@ Credit risk classification is a fundamental task in the financial industry. The 
 
 XGBoost has been shown to be effective in credit risk classification tasks, achieving high accuracy and predictive power. In a typical use case, the algorithm is trained on historical data, which includes information about borrowers and their credit outcomes. The model is then used to predict the probability of default for new loan applications.
 
----
+![XGBoost](/assets/img/images-for-pages/artificial-intelligence/xgboost.png){:class="img-responsive"}
 
 ## Implementation of XGBoost for regression using Python:
 First, we'll need to install the XGBoost library:

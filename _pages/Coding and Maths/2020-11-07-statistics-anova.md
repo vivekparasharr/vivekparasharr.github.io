@@ -7,7 +7,7 @@ tags:
     - variance
     - anova
     - python
-thumbnail: "/assets/img/images-for-pages/coding-and-maths/anova.png"
+thumbnail: "/assets/img/images-for-pages/coding-and-maths/anova-process.png"
 ---
 ANOVA (Analysis of Variance) is a statistical method used to analyze and test the differences between the means of three or more groups. ANOVA compares the variation within groups to the variation between groups to determine whether the differences in means are statistically significant or just due to random chance.
 
@@ -34,6 +34,7 @@ If these assumptions are not met, the results of the ANOVA may not be reliable. 
 - One-way ANOVA: This test is used to compare the means of more than two independent groups.
 - Two-way ANOVA: This test is used to compare the means of two or more independent groups while controlling for one or more other variables.
 
+![ANOVA selection](/assets/img/images-for-pages/coding-and-maths/anova-process.png){:class="img-responsive"}
 
 ## One-way ANOVA
 One-way ANOVA (Analysis of Variance) is a statistical method used to compare the means of three or more groups. It is used to determine whether there are significant differences between the means of the groups based on the variability within each group and the variability between groups. In this article, we will walk through how to perform a one-way ANOVA test using Python.

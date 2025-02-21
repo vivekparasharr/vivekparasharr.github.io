@@ -5,7 +5,7 @@ tags:
     - machine-learning
     - association-rule-learning
     - apyori
-thumbnail: "/assets/img/placeholder.jpg"
+thumbnail: "/assets/img/images-for-pages/artificial-intelligence/association-rules-apriori.png"
 ---
 Association rule learning is a popular technique used in the financial services industry for analyzing customer behavior, identifying patterns, and making data-driven decisions. 
 
@@ -19,7 +19,7 @@ Some examples of using association rule learning in the financial services indus
 - Customer segmentation: Association rule learning can help in segmenting customers based on their buying patterns. By analyzing the data, it can identify the groups of customers who share similar characteristics and create targeted marketing strategies.
 - Market basket analysis: Association rule learning can be used to analyze the purchase patterns of customers and identify the products that are frequently bought together. This information can be used to optimize the inventory management and improve the supply chain efficiency.
 
----
+![APRIORI](/assets/img/images-for-pages/artificial-intelligence/association-rules-apriori.png){:class="img-responsive"}
 
 ## Implement Association rule learning (APRIORI algorithm) using Python
 In order to use the Apriori algorithm, we need to install the apyori package. You can install the package using the following command:

@@ -10,6 +10,7 @@ tags:
     - keras
     - pytorch
 thumbnail: "/assets/img/images-for-pages/artificial-intelligence/artificial-neural-networks.png"
+bookmark: true
 ---
 ## What are Artificial Neural Networks (ANNs)? 
 Artificial Neural Networks (ANNs) are a type of machine learning model that are designed to simulate the function of a biological neural network. ANNs are composed of interconnected nodes or artificial neurons that process and transmit information to one another. The structure of an ANN consists of an input layer, one or more hidden layers, and an output layer.

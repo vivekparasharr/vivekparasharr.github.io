@@ -6,6 +6,7 @@ tags:
     - clustering
     - k-means
 thumbnail: "/assets/img/images-for-pages/artificial-intelligence/k-means-clustering.png"
+bookmark: true
 ---
 K-means clustering is a popular unsupervised learning technique used to cluster data points based on their similarity. In this article, we will explore what k-means clustering is, how it works, and how to implement it in Python and R.
 

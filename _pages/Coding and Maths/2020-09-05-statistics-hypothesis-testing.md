@@ -7,6 +7,7 @@ tags:
     - hypothesis-testing
     - t-test
 thumbnail: "/assets/img/images-for-pages/coding-and-maths/hypothesis-testing-process.png"
+bookmark: true
 ---
 Hypothesis testing is a statistical method used to determine whether a hypothesis about a population parameter is supported by the data. It is a powerful tool for making decisions based on data, and is widely used in many fields including medicine, social sciences, and business.
 

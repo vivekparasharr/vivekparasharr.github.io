@@ -6,6 +6,7 @@ tags:
     - coding
     - python
 thumbnail: "/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/python.webp"
+bookmark: true
 ---
 # Quick Introduction
 Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. It is a general-purpose language that is designed to be easy to use, with a focus on readability and simplicity. Python is often used for web development, data analysis, artificial intelligence, scientific computing, and other types of software development.

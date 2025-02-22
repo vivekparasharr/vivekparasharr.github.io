@@ -8,6 +8,7 @@ tags:
     - r-programming
     - r-studio
 thumbnail: "/assets/img/images-for-pages/coding-and-maths/prog-building-blocks/r.png"
+bookmark: true
 ---
 # Quick Introduction
 R is a programming language and environment for statistical computing and graphics. It was created in the early 1990s by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand. R is now widely used in academia, industry, and government for data analysis, statistical modeling, and data visualization.

@@ -1,5 +1,5 @@
 ---
-title: "Implementing a Machine Learning-Based Multi-Touch Attribution (MTA) Solution"
+title: "Implementing ML Based MTA Solution"
 date: "2025-02-14"
 tags:
     - churn

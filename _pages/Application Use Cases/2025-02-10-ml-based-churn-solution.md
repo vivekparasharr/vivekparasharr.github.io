@@ -1,5 +1,5 @@
 ---
-title: "Implementing a Machine Learning-Based Churn Solution"
+title: "Implementing ML Based Churn Solution"
 date: "2025-02-10"
 tags:
     - churn

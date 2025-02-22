@@ -58,7 +58,7 @@
             <ul class="nav-list">
             {%- for child in children_list -%}
                 {%- assign child_url = child.url | remove: 'index.html' -%}
-                {%- assign child_title = child.title | remove: 'index.md' | split: "/" | last | remove: '.md' -%}
+                {%- assign child_title = child.path | remove: 'index.md' | split: "/" | last | remove: '.md' -%}
                 {%- assign grand_children_list = third_level_pages 
                     | where_exp: "item", "item.url contains child_url" -%}
                 {%- assign num_grand_children = grand_children_list | size -%}

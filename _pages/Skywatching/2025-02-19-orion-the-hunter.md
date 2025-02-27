@@ -22,15 +22,13 @@ The constellation is marked by several bright stars, forming a distinct hourglas
 The most iconic feature of Orion is Orion’s Belt, a straight line of three bright stars: Alnitak, Alnilam, and Mintaka. This trio makes Orion easy to spot and serves as a guidepost for finding other celestial objects.
 
 # Deep-Sky Treasures in Orion
-
-![Orion Nebula](/assets/img/images-for-pages/skywatching/orion-nebula.png){:class="img-responsive"}
-![Horsehead Nebula](/assets/img/images-for-pages/skywatching/horsehead-nebula.png){:class="img-responsive"}
-![Flame Nebula](/assets/img/images-for-pages/skywatching/flame-nebula.png){:class="img-responsive"}
-
 Beyond its bright stars, Orion is home to some stunning deep-sky objects:
     •   The Orion Nebula (M42) – One of the brightest and most studied nebulae in the sky, located just below Orion’s Belt. It is a vast stellar nursery where new stars are being born.
+![Orion Nebula](/assets/img/images-for-pages/skywatching/orion-nebula.png){:class="img-responsive"}
     •   The Horsehead Nebula – A dark nebula with a distinctive horsehead shape, found near the easternmost star of Orion’s Belt, Alnitak.
+![Horsehead Nebula](/assets/img/images-for-pages/skywatching/horsehead-nebula.png){:class="img-responsive"}
     •   The Flame Nebula – A beautiful emission nebula located near Alnitak, glowing due to the radiation from nearby young stars.
+![Flame Nebula](/assets/img/images-for-pages/skywatching/flame-nebula.png){:class="img-responsive"}
 
 # Cultural and Mythological Significance
 Orion has been a part of human mythology and navigation for centuries. In Greek mythology, Orion was a great hunter placed in the sky by Zeus. Many cultures, including the Egyptians and the Mayans, associated Orion with gods and cosmic events. The three stars of Orion’s Belt align closely with the pyramids of Giza, hinting at the constellation’s influence on ancient civilizations.

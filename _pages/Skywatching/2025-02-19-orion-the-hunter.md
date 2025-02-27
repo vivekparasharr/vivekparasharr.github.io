@@ -23,9 +23,9 @@ The most iconic feature of Orion is Orion’s Belt, a straight line of three bri
 
 # Deep-Sky Treasures in Orion
 
-![Orion Nebula](/assets/img/images-for-pages/skywatching/orion-nebula.jpeg){:class="img-responsive"}
-![Horsehead Nebula](/assets/img/images-for-pages/skywatching/horsehead-nebula.jpeg){:class="img-responsive"}
-![Flame Nebula](/assets/img/images-for-pages/skywatching/flame-nebula.jpeg){:class="img-responsive"}
+![Orion Nebula](/assets/img/images-for-pages/skywatching/orion-nebula.png){:class="img-responsive"}
+![Horsehead Nebula](/assets/img/images-for-pages/skywatching/horsehead-nebula.png){:class="img-responsive"}
+![Flame Nebula](/assets/img/images-for-pages/skywatching/flame-nebula.png){:class="img-responsive"}
 
 Beyond its bright stars, Orion is home to some stunning deep-sky objects:
     •   The Orion Nebula (M42) – One of the brightest and most studied nebulae in the sky, located just below Orion’s Belt. It is a vast stellar nursery where new stars are being born.

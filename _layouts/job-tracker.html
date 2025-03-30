@@ -1,0 +1,139 @@
+---
+layout: default
+title: Job Tracker
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h1>Job Application Tracker</h1>
+    <div id="auth">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button onclick="signUp()">Sign Up</button>
+        <button onclick="logIn()">Log In</button>
+        <button onclick="logOut()">Log Out</button>
+    </div>
+    
+    <form id="jobForm" style="display:none;">
+        <input type="text" id="company" placeholder="Company" required>
+        <input type="text" id="position" placeholder="Position" required>
+        <select id="status">
+            <option value="Applied">Applied</option>
+            <option value="Interview">Interview</option>
+            <option value="Offer">Offer</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+        <input type="date" id="date" required>
+        <textarea id="notes" placeholder="Notes"></textarea>
+        <button type="submit">Add Job</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Position</th>
+                <th>Status</th>
+                <th>Date</th>
+                <th>Notes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="jobList"></tbody>
+    </table>
+    
+    <script>
+        const SUPABASE_URL = "https://vfrzmixjqktjndoxctvj.supabase.co";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZmcnptaXhqcWt0am5kb3hjdHZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMzMTA3ODcsImV4cCI6MjA1ODg4Njc4N30.leFWmq6AXXPsYderDXc_Ay7nC55BriouPI_HBC7rHig";
+        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        let user = null;
+
+        async function signUp() {
+            const { user, error } = await supabase.auth.signUp({
+                email: document.getElementById("email").value,
+                password: document.getElementById("password").value
+            });
+            if (error) { alert(error.message); return; }
+            alert("Sign-up successful! Please log in.");
+        }
+
+        async function logIn() {
+            const { user, error } = await supabase.auth.signInWithPassword({
+                email: document.getElementById("email").value,
+                password: document.getElementById("password").value
+            });
+            if (error) { alert(error.message); return; }
+            document.getElementById("jobForm").style.display = "block";
+            fetchJobs();
+        }
+
+        async function logOut() {
+            await supabase.auth.signOut();
+            document.getElementById("jobForm").style.display = "none";
+            document.getElementById("jobList").innerHTML = "";
+        }
+
+        async function fetchJobs() {
+            const { data, error } = await supabase
+                .from("jobs")
+                .select("*")
+                .eq("user_id", user.id);
+            if (error) { alert(error.message); return; }
+            const jobList = document.getElementById("jobList");
+            jobList.innerHTML = "";
+            data.forEach(job => {
+                jobList.innerHTML += `
+                    <tr>
+                        <td>${job.company}</td>
+                        <td>${job.position}</td>
+                        <td>${job.status}</td>
+                        <td>${job.date}</td>
+                        <td>${job.notes}</td>
+                        <td><button onclick="deleteJob(${job.id})">Delete</button></td>
+                    </tr>`;
+            });
+        }
+
+        document.getElementById("jobForm").onsubmit = async function(event) {
+            event.preventDefault();
+            const { data, error } = await supabase.from("jobs").insert([
+                {
+                    user_id: user.id,
+                    company: document.getElementById("company").value,
+                    position: document.getElementById("position").value,
+                    status: document.getElementById("status").value,
+                    date: document.getElementById("date").value,
+                    notes: document.getElementById("notes").value
+                }
+            ]);
+            if (error) { alert(error.message); return; }
+            fetchJobs();
+            document.getElementById("jobForm").reset();
+        };
+
+        async function deleteJob(id) {
+            await supabase.from("jobs").delete().eq("id", id);
+            fetchJobs();
+        }
+
+        supabase.auth.getSession().then(({ data: { session } }) => {
+            if (session) {
+                user = session.user;
+                document.getElementById("jobForm").style.display = "block";
+                fetchJobs();
+            }
+        });
+    </script>
+</body>
+</html>

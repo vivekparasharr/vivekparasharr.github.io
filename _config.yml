@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "twitter_username:"
   how we work and build for the future.
 
 # URLs
-url: "https://parasharr.ca" # the base hostname & protocol for your site
+url: "https://parashar.ca" # the base hostname & protocol for your site
 
 # social links
 twitter_username: vivekparasharr

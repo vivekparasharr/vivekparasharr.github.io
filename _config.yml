@@ -5,6 +5,9 @@ description: > # this means to ignore newlines until "twitter_username:"
   Exploring AI, data, technology, and the ideas shaping 
   how we work and build for the future.
 
+# URLs
+url: "https://parasharr.ca" # the base hostname & protocol for your site
+
 # social links
 twitter_username: vivekparasharr
 github_username: vivekparasharr
